@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/liuziyue141/leetcode/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Hash Table
 |  |
 | ------- |
@@ -20,10 +21,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Trie
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Array
 |  |
 | ------- |
@@ -32,4 +35,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/liuziyue141/leetcode/tree/master/0162-find-peak-element) |
+## Depth-First Search
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
