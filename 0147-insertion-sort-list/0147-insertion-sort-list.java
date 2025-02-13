@@ -11,30 +11,18 @@
 class Solution {
     public ListNode insertionSortList(ListNode head) {
         ListNode dummy = new ListNode();
-        dummy.next = head;
-        ListNode cur = head.next;
-        head.next = null;
-        if(cur == null){
-            return head;
-        }
-        ListNode next = cur.next;
-        cur.next = null;
+        ListNode cur = head;
         while(cur != null){
             ListNode pre = dummy;
-            ListNode start = dummy.next;
-            while(start!=null && cur.val > start.val){
-                pre = start;
-                start = start.next;
+            while(pre.next!=null && cur.val > pre.next.val){
+                pre = pre.next;
             }
+            ListNode next = cur.next;
 
-            cur.next = start;
+            cur.next = pre.next;
             pre.next = cur;
 
             cur = next;
-            if(next != null){
-                next = next.next;
-                cur.next = null;
-            }
         }
         return dummy.next;
     }
