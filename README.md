@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Hash Table
 |  |
 | ------- |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Linked List
 |  |
 | ------- |
@@ -112,11 +114,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/liuziyue141/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/liuziyue141/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
 |  |
 | ------- |
