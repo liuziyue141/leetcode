@@ -14,14 +14,11 @@
  * }
  */
 class Solution {
-    boolean found = false;
     public String getDirections(TreeNode root, int startValue, int destValue) {
         // L P R
         // R P L
-        found = false;
         StringBuilder startSt = new StringBuilder();
         findPath(root, startValue, startSt);
-        found = false;
         StringBuilder destSt = new StringBuilder();
         findPath(root, destValue, destSt);
 
@@ -41,27 +38,25 @@ class Solution {
         return resSt.toString();
     }
 
-    public void findPath(TreeNode root, int t, StringBuilder st){
+    public boolean findPath(TreeNode root, int t, StringBuilder st){
         if (root == null){
-            return;
+            return false;
         }
         if(root.val == t){
-            found = true;
-            return;
+            return true;
         }
 
         st.append('L');
-        findPath(root.left, t, st);
-        if (found){
-            return;
+        if (findPath(root.left, t, st)){
+            return true;
         }
         st.deleteCharAt(st.length()-1);
         st.append('R');
-        findPath(root.right, t, st);
-        if (found){
-            return;
+        
+        if (findPath(root.right, t, st)){
+            return true;
         }
         st.deleteCharAt(st.length()-1);
-
+        return false;
     }
 }
