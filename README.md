@@ -125,4 +125,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
+## Math
+|  |
+| ------- |
+| [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
+## Greedy
+|  |
+| ------- |
+| [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
 <!---LeetCode Topics End-->
