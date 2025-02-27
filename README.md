@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/liuziyue141/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 ## Binary Search
 |  |
 | ------- |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/liuziyue141/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/liuziyue141/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
 ## Greedy
 |  |
