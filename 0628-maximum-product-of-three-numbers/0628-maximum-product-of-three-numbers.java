@@ -1,25 +1,31 @@
 class Solution {
     public int maximumProduct(int[] nums) {
-        int hs = Math.max(nums[0], nums[1]);
-        int ls = Math.min(nums[0], nums[1]);
-        int ht = nums[0] * nums[1];
-        int lt = nums[0] * nums[1];
+        int max1 = Integer.MIN_VALUE;
+        int max2 = Integer.MIN_VALUE;
+        int max3 = Integer.MIN_VALUE;
+        int min1 = Integer.MAX_VALUE;
+        int min2 = Integer.MAX_VALUE;
+        
 
-        int res = Integer.MIN_VALUE;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] >= max1){
+                max3 = max2;
+                max2 = max1;
+                max1 = nums[i];
+            }else if(nums[i] >= max2){
+                max3 = max2;
+                max2 = nums[i];
+            }else if(nums[i] >= max3){
+                max3 = nums[i];
+            }
 
-        for(int i = 2; i < nums.length; i++){
-            res = Math.max(res, ht*nums[i]);
-            res = Math.max(res, lt*nums[i]);
-
-            ht = Math.max(ht, hs * nums[i]);
-            ht = Math.max(ht, ls * nums[i]);
-
-            lt = Math.min(lt, hs * nums[i]);
-            lt = Math.min(lt, ls * nums[i]);
-
-            ls = Math.min(ls, nums[i]);
-            hs = Math.max(hs, nums[i]);
+            if(nums[i] <= min1){
+                min2 = min1;
+                min1 = nums[i];
+            }else if(nums[i] <= min2){
+                min2 = nums[i];
+            }
         }
-        return res;
+        return Math.max(max1*max2*max3, max1*min1*min2);
     }
 }
