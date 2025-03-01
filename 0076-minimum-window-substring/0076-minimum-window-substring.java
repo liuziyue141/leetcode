@@ -2,54 +2,48 @@ class Solution {
     public String minWindow(String s, String t) {
         Map<Character, Integer> curFreq = new HashMap<>();
         Map<Character, Integer> targetFreq = new HashMap<>();
-        Set<Character> need2Visited = new HashSet<>();
-
         for(int i = 0; i < t.length(); i++){
             int freq = targetFreq.getOrDefault(t.charAt(i), 0);
             targetFreq.put(t.charAt(i), freq + 1);
-            need2Visited.add(t.charAt(i));
+            curFreq.put(t.charAt(i), 0);
         }
 
+        int need = targetFreq.keySet().size();
+        int have = 0;
 
         //sliding window
         int left = 0;
         int right = 0;
-        String res = "";
         int len = Integer.MAX_VALUE;
+        int[] res = new int[2];
         while(right < s.length()){
-            while(right < s.length() && !need2Visited.isEmpty()){
-                Character cur = s.charAt(right);
+            Character cur = s.charAt(right);
+            if(targetFreq.containsKey(cur)){
+                int freq = curFreq.get(cur);
+                curFreq.put(cur, freq + 1);
+                if(freq + 1 == targetFreq.get(cur)){
+                    have++;
+                }
+            }
+
+            while(have == need){
+                if(right - left + 1 < len){
+                    res[0] = left;
+                    res[1] = right;
+                    len = right - left + 1;
+                }
+                cur = s.charAt(left);
                 if(targetFreq.containsKey(cur)){
-                    int freq = curFreq.getOrDefault(cur, 0);
-                    curFreq.put(cur, freq + 1);
-                    if(freq + 1 == targetFreq.get(cur)){
-                        need2Visited.remove(cur);
+                    int freq = curFreq.get(cur);
+                    curFreq.put(cur, freq - 1);
+                    if(targetFreq.get(cur) > curFreq.get(cur)){
+                        have--;
                     }
                 }
-                right++;
+                left++;
             }
-            if(need2Visited.isEmpty()){
-                while(left < right){
-                    Character cur = s.charAt(left);
-                    if(targetFreq.containsKey(cur)){
-                        int freq = curFreq.get(cur);
-                        if(freq <= targetFreq.get(cur)){
-                            if(need2Visited.isEmpty()){
-                                if(right - left < len){
-                                    res = s.substring(left, right);
-                                    len = right - left;
-                                }
-                                need2Visited.add(cur);
-                            }else{
-                                break;
-                            }   
-                        }
-                        curFreq.put(cur, freq - 1); 
-                    }
-                    left++;
-                }
-            }
+            right++;
         }
-        return res;
+        return len == Integer.MAX_VALUE? "" : s.substring(res[0], res[1] + 1);
     }
 }
