@@ -27,17 +27,17 @@ class Solution {
             }
 
             while(have == need){
-                if(right - left + 1 < len){
-                    res[0] = left;
-                    res[1] = right;
-                    len = right - left + 1;
-                }
                 cur = s.charAt(left);
                 if(targetFreq.containsKey(cur)){
                     int freq = curFreq.get(cur);
                     curFreq.put(cur, freq - 1);
                     if(targetFreq.get(cur) > curFreq.get(cur)){
                         have--;
+                        if(right - left + 1 < len){
+                            res[0] = left;
+                            res[1] = right;
+                            len = right - left + 1;
+                        }
                     }
                 }
                 left++;
