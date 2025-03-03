@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/liuziyue141/leetcode/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
+| [0189-rotate-array](https://github.com/liuziyue141/leetcode/tree/master/0189-rotate-array) |
 ## String
 |  |
 | ------- |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/liuziyue141/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/liuziyue141/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/liuziyue141/leetcode/tree/master/0162-find-peak-element) |
+| [0189-rotate-array](https://github.com/liuziyue141/leetcode/tree/master/0189-rotate-array) |
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/liuziyue141/leetcode/tree/master/0189-rotate-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/liuziyue141/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
