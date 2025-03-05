@@ -1,22 +1,30 @@
 class Solution {
     public int longestConsecutive(int[] nums) {
-        HashMap<Integer, Integer> lceMap = new HashMap<>();
-        for(int i = 0; i < nums.length; i++){
-            lceMap.put(nums[i], 1);
+        HashSet<Integer> numSet = new HashSet<>();
+        for (int num : nums) {
+            numSet.add(num);
         }
-        int res = 0;
-        HashSet<Integer> visited = new HashSet<>();
-        for(int i = 0; i < nums.length; i++){
-            int cur = nums[i] + 1;
-            int curCnt = 1;
-            while(lceMap.containsKey(cur) && !visited.contains(cur)){
-                curCnt += lceMap.get(cur);
-                visited.add(cur);
-                cur++;
+        
+        int longestStreak = 0;
+        
+        // Iterate over each unique number.
+        for (int num : numSet) {
+            // Only try to build sequences from numbers that do not have a predecessor.
+            if (!numSet.contains(num - 1)) {
+                int currentNum = num;
+                int currentStreak = 1;
+                
+                // Count the length of the sequence starting from 'num'.
+                while (numSet.contains(currentNum + 1)) {
+                    currentNum++;
+                    currentStreak++;
+                }
+                
+                longestStreak = Math.max(longestStreak, currentStreak);
             }
-            lceMap.put(nums[i], Math.max(curCnt, lceMap.get(nums[i])));
-            res = Math.max(curCnt, res);
         }
-        return res;
+        
+        return longestStreak;
+
     }
 }
