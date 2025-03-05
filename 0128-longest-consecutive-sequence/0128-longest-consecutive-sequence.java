@@ -1,30 +1,34 @@
 class Solution {
     public int longestConsecutive(int[] nums) {
-        HashSet<Integer> numSet = new HashSet<>();
+        HashMap<Integer, Integer> numMap = new HashMap<>();
+        int res = 0;
         for (int num : nums) {
-            numSet.add(num);
-        }
-        
-        int longestStreak = 0;
-        
-        // Iterate over each unique number.
-        for (int num : numSet) {
-            // Only try to build sequences from numbers that do not have a predecessor.
-            if (!numSet.contains(num - 1)) {
-                int currentNum = num;
-                int currentStreak = 1;
-                
-                // Count the length of the sequence starting from 'num'.
-                while (numSet.contains(currentNum + 1)) {
-                    currentNum++;
-                    currentStreak++;
+            if(!numMap.containsKey(num)){
+                int totalLen = 0;
+                if(numMap.containsKey(num + 1) && numMap.containsKey(num - 1)){
+                    numMap.put(num, 1);
+                    int r = num + numMap.get(num + 1);
+                    int l = num - numMap.get(num - 1);
+                    totalLen = numMap.get(l) + numMap.get(r) + 1;
+                    numMap.put(l, totalLen);
+                    numMap.put(r, totalLen);
+                }else if(numMap.containsKey(num + 1)){
+                    int r = num + numMap.get(num + 1);
+                    totalLen = numMap.get(r) + 1;
+                    numMap.put(r, totalLen);
+                    numMap.put(num, totalLen);
+                }else if(numMap.containsKey(num - 1)){
+                    int l = num - numMap.get(num - 1);
+                    totalLen = numMap.get(l) + 1;
+                    numMap.put(l, totalLen);
+                    numMap.put(num, totalLen);
+                }else{
+                    totalLen = 1;
+                    numMap.put(num, totalLen);
                 }
-                
-                longestStreak = Math.max(longestStreak, currentStreak);
-            }
+                res = Math.max(res, totalLen);
+            } 
         }
-        
-        return longestStreak;
-
+        return res;
     }
 }
