@@ -4,12 +4,12 @@ class Solution {
         int res = 0;
         for (int num : nums) {
             if(!numMap.containsKey(num)){
-                int r = num + numMap.getOrDefault(num+1, 0);
-                int l = num - numMap.getOrDefault(num-1, 0);
-                int totalLen = numMap.getOrDefault(r, 0) + numMap.getOrDefault(l, 0) + 1;
+                int r = numMap.getOrDefault(num+1, 0);
+                int l = numMap.getOrDefault(num-1, 0);
+                int totalLen = l + r + 1;
                 numMap.put(num, totalLen);
-                numMap.put(r, totalLen);
-                numMap.put(l, totalLen);
+                numMap.put(num + r, totalLen);
+                numMap.put(num - l, totalLen);
                 res = Math.max(res, totalLen);
                 
             } 
