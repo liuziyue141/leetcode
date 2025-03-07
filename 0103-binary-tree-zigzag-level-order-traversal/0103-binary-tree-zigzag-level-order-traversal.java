@@ -19,7 +19,7 @@ class Solution {
             return new ArrayList<>();
         }
         int level = 0;
-        List<TreeNode> queue = new ArrayList<>();
+        Deque<TreeNode> queue = new ArrayDeque<>();
         List<List<Integer>> res = new ArrayList<>();
         queue.add(root);
 
@@ -27,7 +27,7 @@ class Solution {
             int size = queue.size();
             List<Integer> cur = new ArrayList<>();
             for(int i = 0; i < size; i++){
-                TreeNode curNode = queue.remove(0);
+                TreeNode curNode = queue.removeFirst();
                 if(level%2==0){
                     cur.add(curNode.val);
                 }else{
@@ -35,10 +35,10 @@ class Solution {
                 }
 
                 if(curNode.left != null){
-                    queue.add(curNode.left);
+                    queue.addLast(curNode.left);
                 }
                 if(curNode.right != null){
-                    queue.add(curNode.right);
+                    queue.addLast(curNode.right);
                 }
             }
             level++;
