@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/liuziyue141/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0162-find-peak-element](https://github.com/liuziyue141/leetcode/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/liuziyue141/leetcode/tree/master/0189-rotate-array) |
+| [0198-house-robber](https://github.com/liuziyue141/leetcode/tree/master/0198-house-robber) |
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/liuziyue141/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/liuziyue141/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/liuziyue141/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0198-house-robber](https://github.com/liuziyue141/leetcode/tree/master/0198-house-robber) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Backtracking
