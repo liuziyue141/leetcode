@@ -19,7 +19,7 @@ class Solution {
             return new ArrayList<>();
         }
         int level = 0;
-        Deque<TreeNode> queue = new ArrayDeque<>();
+        Deque<TreeNode> queue = new LinkedList<>();
         List<List<Integer>> res = new ArrayList<>();
         queue.add(root);
 
