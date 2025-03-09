@@ -8,6 +8,7 @@ class Solution {
             lastMaxSub = Math.max(lastMaxSub + nums[i], nums[i]);
             res = Math.max(lastMaxSub, res);
         }
+        System.gc();
         return res;
         
     }
