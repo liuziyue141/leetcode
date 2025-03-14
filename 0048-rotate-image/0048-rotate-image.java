@@ -9,19 +9,21 @@ class Solution {
             return;
         }
         int temp = 0;
-        for(int i = l; i < r; i++){
-            temp = matrix[i][r];
-            matrix[i][r] = matrix[l][i];
-            matrix[l][i] = temp;
+        int u = l;
+        int b = r;
+        for(int i = 0; i < r - l; i++){
+            temp = matrix[u+i][r];
+            matrix[u+i][r] = matrix[u][l+i];
+            matrix[u][l+i] = temp;
 
-            temp = matrix[r][r-i+l];
-            matrix[r][r-i+l] = matrix[l][i];
-            matrix[l][i] = temp;
+            temp = matrix[b][r-i];
+            matrix[b][r-i] = matrix[u][l+i];
+            matrix[u][l+i] = temp;
 
 
-            temp = matrix[r-i+l][l];
-            matrix[r-i+l][l] = matrix[l][i];
-            matrix[l][i] = temp;
+            temp = matrix[b-i][l];
+            matrix[b-i][l] = matrix[u][l+i];
+            matrix[u][l+i] = temp;
         }
         rotate(matrix, l+1, r-1);
         
