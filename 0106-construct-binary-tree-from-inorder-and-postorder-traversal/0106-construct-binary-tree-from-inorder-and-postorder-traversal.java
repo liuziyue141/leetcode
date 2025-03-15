@@ -14,15 +14,14 @@
  * }
  */
 class Solution {
+    int pEnd;
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        return buildTree(inorder, postorder, 0, inorder.length-1, 0, postorder.length -1);
+        pEnd = postorder.length - 1;
+        return buildTree(inorder, postorder, 0, inorder.length-1);
     }
 
-    public TreeNode buildTree(int[] inorder, int[] postorder, int iStart, int iEnd, int pStart, int pEnd){
-        if(iStart == iEnd){
-            return new TreeNode(inorder[iStart]);
-        }
-        if(iStart > iEnd){
+    public TreeNode buildTree(int[] inorder, int[] postorder, int iStart, int iEnd){
+        if(iStart > iEnd || pEnd < 0){
             return null;
         }
 
@@ -33,9 +32,9 @@ class Solution {
                 idx = i;
             }
         }
-        int rightCnt = iEnd - idx;
-        cur.left = buildTree(inorder, postorder, iStart, idx-1, pStart, pEnd - rightCnt - 1);
-        cur.right = buildTree(inorder, postorder, idx + 1, iEnd, pEnd - rightCnt, pEnd - 1);
+        pEnd--;
+        cur.right = buildTree(inorder, postorder, idx + 1, iEnd);
+        cur.left = buildTree(inorder, postorder, iStart, idx-1);
         return cur;
     }
 }
