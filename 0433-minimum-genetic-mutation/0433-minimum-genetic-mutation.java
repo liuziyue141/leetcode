@@ -3,42 +3,38 @@ class Solution {
         if(startGene.equals(endGene)){
             return 0;
         }
+        char[] elements = new char[]{'A', 'C', 'G', 'T'};
         Deque<String> geneQueue = new ArrayDeque<>();
-        boolean[] visited = new boolean[bank.length];
+        Set<String> bankSet = new HashSet<>();
+        Set<String> seen = new HashSet<>();
+        for(int i = 0; i < bank.length; i++){
+            bankSet.add(bank[i]);
+        }
         geneQueue.addLast(startGene);
+        seen.add(startGene);
         int cnt = 0;
+
         while(!geneQueue.isEmpty()){
             int size = geneQueue.size();
             for(int i = 0; i < size; i++){
-                String cur = geneQueue.removeFirst();
-                if(cur.equals(endGene)){
+                StringBuilder cur = new StringBuilder(geneQueue.removeFirst());
+                if(endGene.equals(cur.toString())){
                     return cnt;
                 }
-                for(int j = 0; j < bank.length; j++){
-                    if(visited[j]){
-                        continue;
+                for(int j = 0; j < 8; j++){
+                    char old = cur.charAt(j);
+                    for(char elem : elements){
+                        cur.setCharAt(j, elem);
+                        if(!seen.contains(cur.toString()) && bankSet.contains(cur.toString())){
+                            seen.add(cur.toString());
+                            geneQueue.addLast(cur.toString());
+                        }
                     }
-                    if(isNeighbor(bank[j], cur)){
-                        visited[j] = true;
-                        geneQueue.addLast(bank[j]);
-                    }
+                    cur.setCharAt(j, old);
                 }
             }
             cnt++;
         }
         return -1;
-    }
-
-    public boolean isNeighbor(String target, String source){
-        int cnt = 0;
-        for(int i = 0; i < target.length(); i++){
-            if(target.charAt(i) != source.charAt(i)){
-                cnt++;
-                if(cnt > 1){
-                    return false;
-                }
-            }
-        }
-        return cnt==1; 
     }
 }
