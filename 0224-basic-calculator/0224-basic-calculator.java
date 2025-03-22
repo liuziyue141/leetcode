@@ -1,10 +1,10 @@
 class Solution {
-    int i = 0;
     public int calculate(String s) {
         int cur = 0;
         int sign = 1;
         int res = 0;
-        while(i < s.length()){
+        Stack<Integer> stack = new Stack<>();
+        for(int i = 0; i < s.length(); i++){
             char c = s.charAt(i);
             if(Character.isDigit(c)){
                 cur = cur * 10 + c - '0';
@@ -17,12 +17,17 @@ class Solution {
                 cur = 0;
                 sign = 1;
             }else if(c == '('){
-                i++;
-                cur = calculate(s);
+                stack.push(res);
+                stack.push(sign);
+                cur = 0;
+                res = 0;
+                sign = 1;
             }else if (c == ')'){
-                return res + sign * cur;
+                res = res + sign * cur;
+                res = res * stack.pop() + stack.pop();
+                cur = 0;
+                sign = 1;
             }
-            i++;
         }
         return res + sign * cur;
     }
