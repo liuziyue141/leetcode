@@ -10,11 +10,10 @@ class Solution {
             }
         }
 
-        if(n!=0){
-            while(n>0){
-                nums1[n-1] = nums2[n-1];
-                n--;
-            }
+        while(n>0){
+            nums1[n-1] = nums2[n-1];
+            n--;
         }
+
     }
 }
