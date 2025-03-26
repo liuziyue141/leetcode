@@ -1,17 +1,16 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        HashMap<Character, Integer> sCharMap = new HashMap<>();
-        HashMap<Character, Integer> tCharMap = new HashMap<>();
+        HashMap<Character, Character> sCharMap = new HashMap<>();
+        HashMap<Character, Character> tCharMap = new HashMap<>();
         for(int i = 0; i < s.length(); i++){
             
-            int sLastOccurrence = sCharMap.getOrDefault(s.charAt(i), -1);
-            int tLastOccurrence = tCharMap.getOrDefault(t.charAt(i), -1);
-            if(sLastOccurrence == tLastOccurrence){
-                sCharMap.put(s.charAt(i), i);
-                tCharMap.put(t.charAt(i), i);
-            }else{
+
+            if( (sCharMap.containsKey(s.charAt(i)) && sCharMap.get(s.charAt(i)) != t.charAt(i)) || 
+            (tCharMap.containsKey(t.charAt(i)) && tCharMap.get(t.charAt(i)) != s.charAt(i))){
                 return false;
             }
+            sCharMap.put(s.charAt(i), t.charAt(i));
+            tCharMap.put(t.charAt(i), s.charAt(i));
         }
 
         return true;
