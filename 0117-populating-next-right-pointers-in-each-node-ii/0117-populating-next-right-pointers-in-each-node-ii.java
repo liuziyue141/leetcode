@@ -28,11 +28,10 @@ class Solution {
         Node cur = root;
 
         while(cur!=null){
-            Node target = null;
             Node dummy = new Node();
             Node nxt = dummy;
 
-            while(cur!=null&&target==null){
+            while(cur!=null){
                 if(cur.left != null){
                     nxt.next = cur.left;
                     nxt = nxt.next;
