@@ -22,42 +22,67 @@ class Node {
 */
 
 class Solution {
+    // bfs
     public Node connect(Node root) {
-        connectHelper(root);
+        if(root == null){return root;}
+        Queue<Node> q = new LinkedList<Node>();
+        q.add(root);
+        while(!q.isEmpty()){
+            int size = q.size();
+            Node cur = q.poll();
+            for(int i = 0; i < size - 1; i++){
+                Node next = q.poll();
+                cur.next = next;
+                if(cur.left!=null){
+                    q.add(cur.left);
+                }
+                if(cur.right!=null){
+                    q.add(cur.right);
+                } 
+                cur = next;
+            }
+            if(cur.left!=null){
+                q.add(cur.left);
+            }
+            if(cur.right!=null){
+                q.add(cur.right);
+            } 
+        }
         return root;
     }
 
+    // recursion
 
-    public void connectHelper(Node root){
-        if(root == null){
-            return;
-        }
-        Node rightNode = root.right;
-        Node leftNode = root.left;
-        if(rightNode != null || leftNode != null){
-            if(rightNode != null && leftNode != null){
-                leftNode.next = rightNode;
-            }
+    // public void connectHelper(Node root){
+    //     if(root == null){
+    //         return;
+    //     }
+    //     Node rightNode = root.right;
+    //     Node leftNode = root.left;
+    //     if(rightNode != null || leftNode != null){
+    //         if(rightNode != null && leftNode != null){
+    //             leftNode.next = rightNode;
+    //         }
 
-            Node cur = root.next;
-            Node target = null;
-            while(cur != null && target == null){
-                if(cur.left != null){
-                    target = cur.left;
-                }else if(cur.right != null){
-                    target = cur.right;
-                }
-                cur = cur.next;
-            }
+    //         Node cur = root.next;
+    //         Node target = null;
+    //         while(cur != null && target == null){
+    //             if(cur.left != null){
+    //                 target = cur.left;
+    //             }else if(cur.right != null){
+    //                 target = cur.right;
+    //             }
+    //             cur = cur.next;
+    //         }
 
-            if(rightNode != null){
-                rightNode.next = target;
-            }else{
-                leftNode.next = target;
-            }
-        }
-        connectHelper(rightNode);
-        connectHelper(leftNode);
+    //         if(rightNode != null){
+    //             rightNode.next = target;
+    //         }else{
+    //             leftNode.next = target;
+    //         }
+    //     }
+    //     connectHelper(rightNode);
+    //     connectHelper(leftNode);
         
-    }
+    // }
 }
