@@ -22,34 +22,63 @@ class Node {
 */
 
 class Solution {
-    // bfs
+
     public Node connect(Node root) {
-        if(root == null){return root;}
-        Queue<Node> q = new LinkedList<Node>();
-        q.add(root);
-        while(!q.isEmpty()){
-            int size = q.size();
-            Node cur = q.poll();
-            for(int i = 0; i < size - 1; i++){
-                Node next = q.poll();
-                cur.next = next;
-                if(cur.left!=null){
-                    q.add(cur.left);
+        if(root == null || (root.left == null && root.right == null)){return root;}
+        Node cur = root;
+
+        while(cur!=null){
+            Node target = null;
+            Node dummy = new Node();
+            Node nxt = dummy;
+
+            while(cur!=null&&target==null){
+                if(cur.left != null){
+                    nxt.next = cur.left;
+                    nxt = nxt.next;
                 }
-                if(cur.right!=null){
-                    q.add(cur.right);
-                } 
-                cur = next;
+                if(cur.right != null){
+                    nxt.next = cur.right;
+                    nxt = nxt.next;
+                }
+                cur = cur.next;
             }
-            if(cur.left!=null){
-                q.add(cur.left);
+            if(cur == null){
+                cur = dummy.next;
             }
-            if(cur.right!=null){
-                q.add(cur.right);
-            } 
         }
+
         return root;
     }
+
+    // bfs
+    // public Node connect(Node root) {
+    //     if(root == null){return root;}
+    //     Queue<Node> q = new LinkedList<Node>();
+    //     q.add(root);
+    //     while(!q.isEmpty()){
+    //         int size = q.size();
+    //         Node cur = q.poll();
+    //         for(int i = 0; i < size - 1; i++){
+    //             Node next = q.poll();
+    //             cur.next = next;
+    //             if(cur.left!=null){
+    //                 q.add(cur.left);
+    //             }
+    //             if(cur.right!=null){
+    //                 q.add(cur.right);
+    //             } 
+    //             cur = next;
+    //         }
+    //         if(cur.left!=null){
+    //             q.add(cur.left);
+    //         }
+    //         if(cur.right!=null){
+    //             q.add(cur.right);
+    //         } 
+    //     }
+    //     return root;
+    // }
 
     // recursion
 
