@@ -19,17 +19,13 @@ class Solution {
     }
 
     public int sumNumbers(TreeNode root, int cur){
+        if(root == null){
+            return 0;
+        }
         cur = cur * 10 + root.val;
-        int sum = 0;
-        if(root.left != null){
-            sum += sumNumbers(root.left, cur);
-        }
-        if(root.right != null){
-            sum += sumNumbers(root.right, cur);
-        }
         if(root.right == null && root.left == null){
             return cur;
         }
-        return sum; 
+        return sumNumbers(root.left, cur) + sumNumbers(root.right, cur); 
     }
 }
