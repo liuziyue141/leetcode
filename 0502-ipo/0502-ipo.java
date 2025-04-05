@@ -1,36 +1,32 @@
 class Solution {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
         // sort based on capital
-        // priorityQueue <> add the (profits, capital pairs )
+        // priorityQueue <> add the (profits, capital pairs)
         int n = profits.length;
-        ArrayList<Project> projectList = new ArrayList<>();
+        // ArrayList<Project> projectList = new ArrayList<>();
+        PriorityQueue<Project> capitalPq  = new PriorityQueue<>((Project a, Project b) -> {
+            return a.capital - b.capital; // a.capital - b.capital ascending b.capital - a.capital descending
+        });
         for(int i = 0; i < n; i++){
-            projectList.add(new Project(profits[i], capital[i]));
+            capitalPq.add(new Project(profits[i], capital[i]));
         }
-        Collections.sort(projectList, (Project a, Project b) -> {
-            return a.capital - b.capital;
-        });
 
-        PriorityQueue<Project> pq  = new PriorityQueue<>((Project a, Project b) -> {
-            return b.profit - a.profit;
+        PriorityQueue<Project> profitPq  = new PriorityQueue<>((Project a, Project b) -> {
+            return b.profit - a.profit; // a.profit - b.profit minheap b.profit - a.profit maxheap
         });
-        int curCapital = w;
-        int idx = 0;
         while(k>0){
-            while(idx < n && projectList.get(idx).capital <= curCapital){
-                pq.add(projectList.get(idx));
-                idx++;
+            while(!capitalPq.isEmpty() && capitalPq.peek().capital <= w){
+                profitPq.add(capitalPq.poll());
             }
 
-            if(pq.isEmpty()){
+            if(profitPq.isEmpty()){
                 break;
             }
-            Project p= pq.poll();
-            curCapital += p.profit;
+            w += profitPq.poll().profit;
             k--;
         }
 
-        return curCapital;
+        return w;
     }   
 }
 
