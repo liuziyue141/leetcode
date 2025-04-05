@@ -1,43 +1,33 @@
 class Foo {
-    Lock lock;
-    Condition firstRunCondition;
-    Condition secondRunCondition;
     boolean firstRun;
     boolean secondRun;
     public Foo() {
-        lock = new ReentrantLock();
-        firstRunCondition = lock.newCondition();
-        secondRunCondition = lock.newCondition();
+
     }
 
-    public void first(Runnable printFirst) throws InterruptedException {
-        lock.lock();
+    public synchronized void first(Runnable printFirst) throws InterruptedException {
         // printFirst.run() outputs "first". Do not change or remove this line.
-        firstRun = true;
         printFirst.run();
-        firstRunCondition.signal();
-        lock.unlock();
+        firstRun = true;
+        this.notifyAll();
     }
 
-    public void second(Runnable printSecond) throws InterruptedException {
-        lock.lock();
-        // printSecond.run() outputs "second". Do not change or remove this line.
+    public synchronized void second(Runnable printSecond) throws InterruptedException {
+        
         while(!firstRun){
-            firstRunCondition.await();
+            wait();
         }
-        secondRun = true;
+        // printSecond.run() outputs "second". Do not change or remove this line.
         printSecond.run();
-        secondRunCondition.signal();
-        lock.unlock();
+        secondRun = true;
+        this.notifyAll();
     }
 
-    public void third(Runnable printThird) throws InterruptedException {
-        lock.lock();
+    public synchronized void third(Runnable printThird) throws InterruptedException {
         while(!secondRun){
-            secondRunCondition.await();
+            wait();
         }
         // printThird.run() outputs "third". Do not change or remove this line.
         printThird.run();
-        lock.unlock();
     }
 }
