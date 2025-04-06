@@ -1,62 +1,52 @@
 class Solution {
+    public String createSpace(int num){
+        String space = "";
+        for(int i = 0; i < num; i++){
+            space += " ";
+        }
+        return space;
+    }
     public List<String> fullJustify(String[] words, int maxWidth) {
         int idx = 0;
+        int length = 0;
+        int wordCnt = 0;
         StringBuilder sb = new StringBuilder();
         List<String> res = new ArrayList<>();
 
         while(idx < words.length){
-            int cur = idx + 1;
-            int curLength = words[idx].length();
-            while(cur < words.length && curLength + words[cur].length() + 1 <= maxWidth){
-                curLength += 1 + words[cur].length();
-                cur++;
-            }
-            int diff = maxWidth - curLength; 
-            int wordCnt = cur - idx;
-            int space = 0;
-            int spaceRemainder = 0;
-            // System.out.println(diff);
-            // System.out.println(wordCnt);
-            if(wordCnt-1>0){
-                space = diff/(wordCnt-1);
-                spaceRemainder = diff % (wordCnt-1);
-            }else{
-                space = diff;
-            }
-            // System.out.println(spaceRemainder);
-            if(cur != words.length){
-                sb.append(words[idx]);
-                for(int i = idx + 1; i < cur; i++){
-                    for(int j = 0; j <= space; j++){
-                        sb.append(' ');
-                    }
-                    if(spaceRemainder>0){
+            if (length + words[idx].length() + wordCnt > maxWidth){
+                int spaceBetween = (maxWidth - length)/Math.max(1, wordCnt - 1);
+                int spaceRemainder = (maxWidth - length)%Math.max(1, wordCnt - 1);
+                sb.append(words[idx - wordCnt]);
+                for(int i = idx - wordCnt + 1; i < idx; i++){
+                    int space = spaceBetween;
+                    if(spaceRemainder > 0){
+                        space++;
                         spaceRemainder--;
-                        sb.append(' ');
                     }
+                    sb.append(createSpace(space));
                     sb.append(words[i]);
                 }
-
-                if(wordCnt-1==0){
-                    for(int j = 0; j < diff; j++){
-                        sb.append(' ');
-                    }
+                if(wordCnt == 1){
+                    sb.append(createSpace(spaceBetween));
                 }
-            }else{
-                sb.append(words[idx]);
-                for(int i = idx + 1; i < cur; i++){
-                    sb.append(' ');
-                    sb.append(words[i]);
-                }
-                for(int i = 0; i < diff; i++){
-                    sb.append(' ');
-                }
+                res.add(sb.toString());
+                sb.setLength(0);
+                length = 0;
+                wordCnt = 0;
             }
-            
-            idx = cur;
-            res.add(sb.toString());
-            sb.setLength(0);
+            wordCnt++;
+            length += words[idx].length();
+            idx++;
         }
+        sb.append(words[words.length - wordCnt]);
+        for(int i = words.length - wordCnt + 1; i < words.length; i++){
+            sb.append(' ');
+            sb.append(words[i]);
+        }
+        int trailingSpace = maxWidth - sb.length();
+        sb.append(createSpace(trailingSpace));
+        res.add(sb.toString());
         return res;
     }
 }
