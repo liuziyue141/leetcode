@@ -20,19 +20,17 @@ class Solution {
         int[] res = new int[numCourses];
         int idx = 0;
         while(!queue.isEmpty()){
-            int size = queue.size();
-            for(int i = 0; i < size; i++){
-                int cur = queue.removeFirst();
-                res[idx] = cur;
-                idx++;
-                Set<Integer> neighbor = graph.get(cur);
-                for(int n : neighbor){
-                    inorder[n]--;
-                    if(inorder[n] == 0){
-                        queue.addLast(n);
-                    }
+            int cur = queue.removeFirst();
+            res[idx] = cur;
+            idx++;
+            Set<Integer> neighbor = graph.get(cur);
+            for(int n : neighbor){
+                inorder[n]--;
+                if(inorder[n] == 0){
+                    queue.addLast(n);
                 }
             }
+            
         }
         if(idx==numCourses){
             return res;
