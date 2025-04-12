@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/liuziyue141/leetcode/tree/master/0224-basic-calculator) |
+| [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/liuziyue141/leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/liuziyue141/leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 ## Design
@@ -291,4 +293,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
