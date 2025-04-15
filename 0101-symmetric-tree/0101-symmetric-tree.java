@@ -15,23 +15,33 @@
  */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
-        if(root == null){
-            return true;
-        }
-        return isSymmetric(root.left, root.right);
-    }
+        Stack<TreeNode> left = new Stack<>();
+        Stack<TreeNode> right = new Stack<>();
+        left.push(root.left);
+        right.push(root.right);
 
-    public boolean isSymmetric(TreeNode left, TreeNode right){
-        if(left == null && right != null){
-            return false;
-        }
-        if(right == null && left != null){
-            return false;
-        }
-        if(left == null && right == null){
-            return true;
-        }
+        while(left.size()>0){
+            TreeNode leftNode = left.peek();
+            TreeNode rightNode = right.peek();
 
-        return left.val == right.val && isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
+            if(leftNode == null && rightNode == null){
+                left.pop();
+                right.pop();
+            }else if(leftNode == null && rightNode != null){
+                return false;
+            }else if(rightNode == null && leftNode != null){
+                return false;
+            }else if(rightNode.val != leftNode.val){
+                return false;
+            }else{
+                left.pop();
+                right.pop();
+                left.push(leftNode.left);
+                right.push(rightNode.right);
+                left.push(leftNode.right);
+                right.push(rightNode.left);
+            }
+        }
+        return true;
     }
 }
