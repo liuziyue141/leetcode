@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/liuziyue141/leetcode/tree/master/0198-house-robber) |
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/liuziyue141/leetcode/tree/master/0221-maximal-square) |
+| [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/liuziyue141/leetcode/tree/master/0289-game-of-life) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/liuziyue141/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/liuziyue141/leetcode/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
+| [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/liuziyue141/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/liuziyue141/leetcode/tree/master/0502-ipo) |
@@ -303,4 +305,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
