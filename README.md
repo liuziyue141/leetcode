@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/liuziyue141/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/liuziyue141/leetcode/tree/master/0146-lru-cache) |
 | [0202-happy-number](https://github.com/liuziyue141/leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/liuziyue141/leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/liuziyue141/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/liuziyue141/leetcode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/liuziyue141/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0092-reverse-linked-list-ii](https://github.com/liuziyue141/leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/liuziyue141/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/liuziyue141/leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0146-lru-cache](https://github.com/liuziyue141/leetcode/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
 ## Sorting
@@ -311,4 +314,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/liuziyue141/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
