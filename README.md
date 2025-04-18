@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/liuziyue141/leetcode/tree/master/0221-maximal-square) |
 | [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/liuziyue141/leetcode/tree/master/0289-game-of-life) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/liuziyue141/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/liuziyue141/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/liuziyue141/leetcode/tree/master/0502-ipo) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/liuziyue141/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0502-ipo](https://github.com/liuziyue141/leetcode/tree/master/0502-ipo) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
