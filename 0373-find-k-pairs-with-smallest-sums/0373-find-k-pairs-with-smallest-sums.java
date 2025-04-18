@@ -4,20 +4,20 @@ class Solution {
         PriorityQueue<Element> pq = new PriorityQueue<>((Element a, Element b) -> {
             return a.sum - b.sum;
         });
-        Set<String> visited = new HashSet<>();
+        Set<Pair<Integer, Integer>> visited = new HashSet<>();
         List<List<Integer>> res = new ArrayList<>();
-        visited.add(0+"x"+0);
+        visited.add(new Pair<Integer, Integer>(0, 0));
         pq.offer(new Element(nums1[0] + nums2[0], 0, 0));
         while(res.size()!=k){
             Element cur = pq.poll();
             res.add(List.of(nums1[cur.i], nums2[cur.j]));
-            if(cur.i + 1 < nums1.length && !visited.contains((cur.i + 1) + "x" + cur.j)){
+            if(cur.i + 1 < nums1.length && !visited.contains(new Pair<Integer, Integer>((cur.i + 1), cur.j))){
                 pq.offer(new Element(nums1[cur.i + 1] + nums2[cur.j], cur.i + 1, cur.j));
-                visited.add((cur.i + 1) + "x" + cur.j);
+                visited.add(new Pair<Integer, Integer>((cur.i + 1), cur.j));
             }
-            if(cur.j + 1 < nums2.length && !visited.contains(cur.i + "x" + (cur.j+1))){
+            if(cur.j + 1 < nums2.length && !visited.contains(new Pair<Integer, Integer>(cur.i, cur.j + 1))){
                 pq.offer(new Element(nums1[cur.i] + nums2[cur.j + 1], cur.i, cur.j + 1));
-                visited.add(cur.i + "x" + (cur.j + 1));
+                visited.add(new Pair<Integer, Integer>(cur.i, cur.j + 1));
             }
         }
         return res;
