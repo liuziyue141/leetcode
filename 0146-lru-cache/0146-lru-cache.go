@@ -1,85 +1,48 @@
+import ("container/list")
+
+type Value struct {
+    key int
+    value int 
+}
+
 type LRUCache struct {
-    Map map[int]*Node
-    Queue LinkedList
+    Map map[int]*list.Element
+    Queue *list.List
     Cap int
 }
 
-type LinkedList struct {
-    Head *Node
-    Tail *Node
-}
-
-func (this *LinkedList) moveToFront(node *Node) {
-    this.remove(node)
-    this.add(node)
-}
-
-func (this *LinkedList) removeLast() *Node{
-    evictNode := this.Tail.Prev
-    this.remove(evictNode)
-    return evictNode
-}
-
-func (this *LinkedList) add(node *Node){
-    node.Next = this.Head.Next
-    node.Prev = this.Head
-    node.Next.Prev = node
-    this.Head.Next = node
-}
-
-func (this *LinkedList) remove(node *Node){
-    node.Prev.Next = node.Next
-    node.Next.Prev = node.Prev
-    node.Prev = nil
-    node.Next = nil
-}
-
-type Node struct {
-    Key int
-    Value int
-    Next *Node
-    Prev *Node
-} 
-
-
 func Constructor(capacity int) LRUCache {
-    head := &Node{
-        Key: -1,
-    }
-    tail := &Node{
-        Key: -1,
-    }
-    head.Next = tail
-    tail.Prev = head
-    queue := LinkedList{head, tail}
-    return LRUCache{make(map[int]*Node), queue, capacity}
+    return LRUCache{make(map[int]*list.Element), list.New(), capacity}
 }
 
 
 func (this *LRUCache) Get(key int) int {
-    val, ok := this.Map[key]; 
+    elem, ok := this.Map[key]; 
     if !ok{
         return -1
     }
-    this.Queue.moveToFront(val)
-    return val.Value
+    this.Queue.MoveToFront(elem)
+    return elem.Value.(*Value).value
 }
 
 
 func (this *LRUCache) Put(key int, value int)  {
-    val, ok := this.Map[key]; 
+    elem, ok := this.Map[key]; 
     if ok{
-        val.Value = value
-        this.Queue.remove(val)
+        elem.Value.(*Value).value = value
+        this.Queue.MoveToFront(elem)
     }else{
-        val = &Node{key, value, nil, nil}
-        if this.Cap == len(this.Map){
-            evict := this.Queue.removeLast()
-            delete(this.Map, evict.Key)
+        val := &Value{
+            key: key, 
+            value: value,
         }
-        this.Map[key] = val
+        if this.Cap == len(this.Map){
+            evict := this.Queue.Remove(this.Queue.Back())
+            delete(this.Map, evict.(*Value).key)
+        }
+        this.Queue.PushFront(val)
+        this.Map[key] = this.Queue.Front()
     }
-    this.Queue.add(val)
 }
 
 
