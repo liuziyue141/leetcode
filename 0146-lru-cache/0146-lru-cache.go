@@ -9,46 +9,27 @@ type LinkedList struct {
     Tail *Node
 }
 
+func (this *LinkedList) moveToFront(node *Node) {
+    this.remove(node)
+    this.add(node)
+}
+
 func (this *LinkedList) removeLast() *Node{
-    oldTail := this.Tail
-    if this.Tail == this.Head{
-        this.Tail = nil
-        this.Head = nil
-        oldTail.Next = nil
-        oldTail.Prev = nil
-        return oldTail
-    }
-    newTail := this.Tail.Prev
-    this.Tail = newTail
-    oldTail.Next = nil
-    oldTail.Prev = nil
-    return oldTail
+    evictNode := this.Tail.Prev
+    this.remove(evictNode)
+    return evictNode
 }
 
 func (this *LinkedList) add(node *Node){
-    node.Next = this.Head
-    if this.Head != nil{
-        this.Head.Prev = node
-    }
-    if this.Tail == nil{
-        this.Tail = node
-    }
-    this.Head = node
+    node.Next = this.Head.Next
+    node.Prev = this.Head
+    node.Next.Prev = node
+    this.Head.Next = node
 }
 
 func (this *LinkedList) remove(node *Node){
-    if node.Prev != nil{
-        node.Prev.Next = node.Next
-    }
-    if node.Next != nil{
-        node.Next.Prev = node.Prev
-    }
-    if node == this.Tail{
-        this.Tail = node.Prev
-    }
-    if node == this.Head{
-        this.Head = node.Next
-    }
+    node.Prev.Next = node.Next
+    node.Next.Prev = node.Prev
     node.Prev = nil
     node.Next = nil
 }
@@ -62,24 +43,31 @@ type Node struct {
 
 
 func Constructor(capacity int) LRUCache {
-    queue := LinkedList{nil, nil}
+    head := &Node{
+        Key: -1,
+    }
+    tail := &Node{
+        Key: -1,
+    }
+    head.Next = tail
+    tail.Prev = head
+    queue := LinkedList{head, tail}
     return LRUCache{make(map[int]*Node), queue, capacity}
 }
 
 
 func (this *LRUCache) Get(key int) int {
-    val, ok := this.Map[key]
+    val, ok := this.Map[key]; 
     if !ok{
         return -1
     }
-    this.Queue.remove(val)
-    this.Queue.add(val)
+    this.Queue.moveToFront(val)
     return val.Value
 }
 
 
 func (this *LRUCache) Put(key int, value int)  {
-    val, ok := this.Map[key]
+    val, ok := this.Map[key]; 
     if ok{
         val.Value = value
         this.Queue.remove(val)
