@@ -1,20 +1,21 @@
 func minSubArrayLen(target int, nums []int) int {
-    left := 0;
-    right := 0;
-    sum := 0;
-    length := len(nums) + 1
+    left := 0
+    right := 0
+    sum := 0
+    maxInt := int(^uint(0) >> 1)
+    length := maxInt
     for right < len(nums){
         sum = sum + nums[right]
-        right = right + 1
-        for sum - nums[left] >= target {
+        right++
+        for sum - nums[left]>= target {
             sum = sum - nums[left]
-            left = left + 1
+            left++
         }
-        if sum >= target {
-            length = min(right - left, length)
+        if sum >= target{
+            length = min(length, right - left)
         }
     }
-    if length == len(nums) + 1 {
+    if length == maxInt {
         return 0
     }
     return length
