@@ -29,28 +29,52 @@ class Solution {
     // }
 
 
-    // two-pass approach
+    // // two-pass approach
+    // public int maximumSwap(int num) {
+    //     char[] numStrArr = String.valueOf(num).toCharArray();
+    //     int n = numStrArr.length;
+    //     int[] rightMaxIndex = new int[n];
+    //     rightMaxIndex[n - 1] = n - 1;
+    //     for(int i = 1; i < n; i++){
+    //         char cur = numStrArr[n - i - 1];
+    //         if(numStrArr[rightMaxIndex[n - i]] >= cur){
+    //             rightMaxIndex[n - i - 1] = rightMaxIndex[n - i];
+    //         }else{
+    //             rightMaxIndex[n - i - 1] = n - i - 1;
+    //         }
+    //     }
+    //     for(int i = 0; i < n; i++){
+    //         if(numStrArr[i] < numStrArr[rightMaxIndex[i]]){
+    //             char temp = numStrArr[i];
+    //             numStrArr[i] = numStrArr[rightMaxIndex[i]];
+    //             numStrArr[rightMaxIndex[i]] = temp;
+    //             return Integer.valueOf(new String(numStrArr));
+    //         }
+    //     }
+    //     return num;
+    // }
+
+    // space optimized approach
     public int maximumSwap(int num) {
         char[] numStrArr = String.valueOf(num).toCharArray();
         int n = numStrArr.length;
-        int[] rightMaxIndex = new int[n];
-        rightMaxIndex[n - 1] = n - 1;
-        for(int i = 1; i < n; i++){
-            char cur = numStrArr[n - i - 1];
-            if(numStrArr[rightMaxIndex[n - i]] >= cur){
-                rightMaxIndex[n - i - 1] = rightMaxIndex[n - i];
-            }else{
-                rightMaxIndex[n - i - 1] = n - i - 1;
+        char max = '0';
+        int maxIndex = n - 1;
+        int swapI = n - 1;
+        int swapJ = n - 1;
+        for(int i = n-1; i >= 0; i--){
+            if(numStrArr[i] < max){
+                swapI = i;
+                swapJ = maxIndex;
+            }else if(numStrArr[i] > max){
+                max = numStrArr[i];
+                maxIndex = i;
             }
         }
-        for(int i = 0; i < n; i++){
-            if(numStrArr[i] < numStrArr[rightMaxIndex[i]]){
-                char temp = numStrArr[i];
-                numStrArr[i] = numStrArr[rightMaxIndex[i]];
-                numStrArr[rightMaxIndex[i]] = temp;
-                return Integer.valueOf(new String(numStrArr));
-            }
-        }
-        return num;
+        char temp = numStrArr[swapI];
+        numStrArr[swapI] = numStrArr[swapJ];
+        numStrArr[swapJ] = temp;
+
+        return Integer.valueOf(new String(numStrArr));
     }
 }
