@@ -1,36 +1,36 @@
 class Solution {
     public int calculate(String s) {
-        List<Integer> nStack = new ArrayList<>();
-        List<Character> oStack = new ArrayList<>();
-
+        Stack<Integer> nStack = new Stack<>();
+        char lastOpt = '+';
         int i = 0;
         while(i < s.length()){
             if(s.charAt(i) == ' '){
                 i++;
                 continue;
             }
-            if(!Character.isDigit(s.charAt(i))){
-                oStack.add(s.charAt(i));
+            else if(!Character.isDigit(s.charAt(i))){
+                lastOpt = s.charAt(i);
                 i++;
-                continue;
-            }
-            int num = 0;
-            while(i < s.length() && Character.isDigit(s.charAt(i))){
-                num = num * 10 + (int)(s.charAt(i) - '0');
-                i++;
-            }
+            }else{
+                int num = 0;
+                while(i < s.length() && Character.isDigit(s.charAt(i))){
+                    num = num * 10 + (int)(s.charAt(i) - '0');
+                    i++;
+                }
 
-            if (!oStack.isEmpty() && (oStack.getLast() == '*' || oStack.getLast() == '/')){
-                num = evaluate(nStack.removeLast(), num, oStack.removeLast());
+                if (lastOpt == '*'){
+                    num = nStack.pop() * num;
+                }else if(lastOpt == '/'){
+                    num = nStack.pop() / num;
+                }else if(lastOpt == '-'){
+                    num = -num;
+                }
+                nStack.push(num);
             }
-            nStack.add(num);
         }
-        int res = nStack.removeFirst();
-        while(!oStack.isEmpty()){
-            int b = nStack.removeFirst();
-            char opt = oStack.removeFirst();
-
-            res = evaluate(res, b, opt);
+        int res = 0;
+        while(!nStack.isEmpty()){
+            res += nStack.pop();
         }
         return res;
     }
