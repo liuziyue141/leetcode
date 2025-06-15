@@ -27,35 +27,27 @@ class Solution {
         if(root == null){
             return new ArrayList<>();
         }
+        Map<Integer, List<Integer>> map = new HashMap<>();
         List<Element> queue = new ArrayList<>();
-        List<Element> res = new ArrayList<>();
         queue.add(new Element(root, 0));
-
         while(!queue.isEmpty()){
             Element cur = queue.removeFirst();
-            res.add(cur);
-            if(cur.node.left != null){
+            map.putIfAbsent(cur.idx, new ArrayList<>());
+            map.get(cur.idx).add(cur.node.val);
+            if (cur.node.left != null){
                 queue.add(new Element(cur.node.left, cur.idx - 1));
             }
-            if(cur.node.right != null){
+            if (cur.node.right != null){
                 queue.add(new Element(cur.node.right, cur.idx + 1));
             }
         }
 
-        Collections.sort(res, (Element a, Element b) -> a.idx - b.idx);
         List<List<Integer>> result = new ArrayList<>();
-        int slow = 0;
-        int fast = 0;
-        while(fast < res.size()){
-            List<Integer> cur = new ArrayList<>();
-            while(fast < res.size() && res.get(slow).idx == res.get(fast).idx){
-                cur.add(res.get(fast).node.val);
-                fast++;
-            }
-            result.add(cur);
-            slow = fast;
+        List<Integer> sortedKey = new ArrayList<>(map.keySet());
+        Collections.sort(sortedKey);
+        for(int idx : sortedKey){
+            result.add(map.get(idx));
         }
-
         return result;
     }
 }
