@@ -30,10 +30,14 @@ class Solution {
         Map<Integer, List<Integer>> map = new HashMap<>();
         List<Element> queue = new ArrayList<>();
         queue.add(new Element(root, 0));
+        int min = 0;
+        int max = 0;
         while(!queue.isEmpty()){
             Element cur = queue.removeFirst();
             map.putIfAbsent(cur.idx, new ArrayList<>());
             map.get(cur.idx).add(cur.node.val);
+            min = Math.min(min, cur.idx);
+            max = Math.max(max, cur.idx);
             if (cur.node.left != null){
                 queue.add(new Element(cur.node.left, cur.idx - 1));
             }
@@ -41,12 +45,9 @@ class Solution {
                 queue.add(new Element(cur.node.right, cur.idx + 1));
             }
         }
-
         List<List<Integer>> result = new ArrayList<>();
-        List<Integer> sortedKey = new ArrayList<>(map.keySet());
-        Collections.sort(sortedKey);
-        for(int idx : sortedKey){
-            result.add(map.get(idx));
+        for(int i = min; i <= max; i++){
+            result.add(map.get(i));
         }
         return result;
     }
