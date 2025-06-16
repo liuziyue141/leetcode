@@ -10,18 +10,22 @@ class Node {
 
 class Solution {
     public Node lowestCommonAncestor(Node p, Node q) {
-        HashSet<Node> set = new HashSet<>();
-        while(p!=null){
-            set.add(p);
-            p = p.parent;
-        }
+        Node p_copy = p;
+        Node q_copy = q;
 
-        while(q!=null){
-            if(set.contains(q)){
-                return q;
+        while(p_copy != q_copy){
+            if(p_copy == null){
+                p_copy = q;
+                continue;
             }
-            q = q.parent;
+            if(q_copy == null){
+                q_copy = p;
+                continue;
+            }
+            
+            p_copy = p_copy.parent;
+            q_copy = q_copy.parent;
         }
-        return null;
+        return p_copy;
     }
 }
