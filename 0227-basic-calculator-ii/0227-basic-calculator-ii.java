@@ -1,12 +1,12 @@
 class Solution {
     public int calculate(String s) {
-        Stack<Integer> nStack = new Stack<>();
+        int res = 0;
+        int lastVal = 0;
         char lastOpt = '+';
         int i = 0;
         while(i < s.length()){
             if(s.charAt(i) == ' '){
                 i++;
-                continue;
             }
             else if(!Character.isDigit(s.charAt(i))){
                 lastOpt = s.charAt(i);
@@ -19,31 +19,22 @@ class Solution {
                 }
 
                 if (lastOpt == '*'){
-                    num = nStack.pop() * num;
+                    res = res - lastVal;
+                    lastVal = lastVal * num;
+                    res += lastVal;
                 }else if(lastOpt == '/'){
-                    num = nStack.pop() / num;
+                    res = res - lastVal;
+                    lastVal = lastVal / num;
+                    res += lastVal;
                 }else if(lastOpt == '-'){
-                    num = -num;
+                    lastVal = -num;
+                    res += lastVal;
+                }else{
+                    lastVal = num;
+                    res += num;
                 }
-                nStack.push(num);
             }
         }
-        int res = 0;
-        while(!nStack.isEmpty()){
-            res += nStack.pop();
-        }
         return res;
-    }
-
-    public int evaluate(int a, int b, char opt){
-        if (opt == '+'){
-            return a + b;
-        }else if (opt == '-'){
-            return a - b;
-        }else if (opt == '*'){
-            return a * b;
-        }else{
-            return a / b;
-        }
     }
 }
