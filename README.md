@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0339-nested-list-weight-sum](https://github.com/liuziyue141/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/liuziyue141/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/liuziyue141/leetcode/tree/master/0200-number-of-islands) |
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0339-nested-list-weight-sum](https://github.com/liuziyue141/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 ## Math
