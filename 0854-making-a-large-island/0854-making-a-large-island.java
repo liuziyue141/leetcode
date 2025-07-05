@@ -21,10 +21,10 @@ class Solution {
         }
 
         int maxSize = 0;
+        List<Integer> nearbyIsland = new ArrayList<>();
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
                 if(grid[i][j] == 0){
-                    List<Integer> nearbyIsland = new ArrayList<>();
                     int cur = 1;
                     for(int k = 0; k < dx.length; k++){
                         int x = i + dx[k];
@@ -39,6 +39,7 @@ class Solution {
                         }
                     }
                     maxSize = max(cur, maxSize);
+                    nearbyIsland.clear();
                 }
             }
         }
