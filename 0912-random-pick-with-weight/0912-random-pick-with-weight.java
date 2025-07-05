@@ -16,13 +16,11 @@ class Solution {
         int left = 0;
         int right = this.w.length;
         while(left < right){
-            int mid = (left + right)/2;
+            int mid = left + (right - left)/2;
             if(this.w[mid] > pickVal){
                 right = mid;
-            }else if(this.w[mid] < pickVal){
-                left = mid + 1; 
             }else{
-                return mid + 1; 
+                left = mid + 1; 
             }
         }
         return right;
