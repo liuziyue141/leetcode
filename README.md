@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/liuziyue141/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Binary Search
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/liuziyue141/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/liuziyue141/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -295,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/liuziyue141/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/liuziyue141/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0670-maximum-swap](https://github.com/liuziyue141/leetcode/tree/master/0670-maximum-swap) |
+| [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
 ## Greedy
@@ -374,8 +377,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/liuziyue141/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/liuziyue141/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Randomized
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 <!---LeetCode Topics End-->
