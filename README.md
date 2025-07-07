@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
 | [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/liuziyue141/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Binary Search
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/liuziyue141/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Tree
 |  |
 | ------- |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/liuziyue141/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Math
 |  |
 | ------- |
