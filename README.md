@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0560-subarray-sum-equals-k](https://github.com/liuziyue141/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
+| [1364-tuple-with-same-product](https://github.com/liuziyue141/leetcode/tree/master/1364-tuple-with-same-product) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/liuziyue141/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Design
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/liuziyue141/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1364-tuple-with-same-product](https://github.com/liuziyue141/leetcode/tree/master/1364-tuple-with-same-product) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Binary Search
@@ -382,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
+| [1364-tuple-with-same-product](https://github.com/liuziyue141/leetcode/tree/master/1364-tuple-with-same-product) |
 ## Counting Sort
 |  |
 | ------- |
