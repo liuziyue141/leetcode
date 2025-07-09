@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/liuziyue141/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Trie
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/liuziyue141/leetcode/tree/master/0221-maximal-square) |
 | [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/liuziyue141/leetcode/tree/master/0289-game-of-life) |
+| [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/liuziyue141/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/liuziyue141/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -411,4 +413,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
+## Queue
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
 <!---LeetCode Topics End-->
