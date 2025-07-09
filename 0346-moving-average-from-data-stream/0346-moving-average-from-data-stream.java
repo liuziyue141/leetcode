@@ -1,7 +1,7 @@
 class MovingAverage {
     LinkedList<Integer> list;
     int cap;
-    int sum;
+    double sum;
     public MovingAverage(int size) {
         list = new LinkedList<>();
         cap = size;
@@ -14,7 +14,7 @@ class MovingAverage {
         }
         list.add(val);
         sum+=val;
-        return (double) (sum) / list.size();
+        return sum / list.size();
         
     }
 }
