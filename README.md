@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
+| [0432-all-oone-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0560-subarray-sum-equals-k](https://github.com/liuziyue141/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0432-all-oone-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Trie
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/liuziyue141/leetcode/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
+| [0432-all-oone-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
 ## Sorting
 |  |
@@ -397,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/liuziyue141/leetcode/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
 ## Prefix Sum
 |  |
