@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/liuziyue141/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/liuziyue141/leetcode/tree/master/0202-happy-number) |
+| [0253-meeting-rooms-ii](https://github.com/liuziyue141/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0408-valid-word-abbreviation](https://github.com/liuziyue141/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/liuziyue141/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/liuziyue141/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/liuziyue141/leetcode/tree/master/0221-maximal-square) |
+| [0253-meeting-rooms-ii](https://github.com/liuziyue141/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/liuziyue141/leetcode/tree/master/0289-game-of-life) |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0147-insertion-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/liuziyue141/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/liuziyue141/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -237,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/liuziyue141/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/liuziyue141/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/liuziyue141/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0502-ipo](https://github.com/liuziyue141/leetcode/tree/master/0502-ipo) |
@@ -328,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/liuziyue141/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/liuziyue141/leetcode/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/liuziyue141/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/liuziyue141/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/liuziyue141/leetcode/tree/master/0502-ipo) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
@@ -407,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/liuziyue141/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0253-meeting-rooms-ii](https://github.com/liuziyue141/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/liuziyue141/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 ## Quickselect
