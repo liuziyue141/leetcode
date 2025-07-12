@@ -11,43 +11,57 @@ class AllOne {
     }
     
     public void inc(String key) {
+        Node newNode = null;
         if(!map.containsKey(key)){
-            Node min = new Node(1, key);
-            tail.putAhead(min);
-            map.put(key, min);
-            return;
+            if(tail.next.freq == 1){
+                newNode = tail.next;
+            }else{
+                newNode = new Node(1);
+                newNode.putBetween(tail, tail.next);
+            }
+        }else{
+            Node oldNode = map.get(key);
+            if(oldNode.next.freq == oldNode.freq + 1){
+                newNode = oldNode.next;
+            }else{
+                newNode = new Node(oldNode.freq + 1);
+                newNode.putBetween(oldNode, oldNode.next);
+            }
+            oldNode.set.remove(key);
+            if(oldNode.set.isEmpty()){
+                oldNode.remove();
+            }
         }
-        Node node = map.get(key);
-        Node cur = node;
-        while(cur != head && cur.cnt < node.cnt + 1){
-            cur = cur.next;
-        }
-        node.cnt++;
-        node.removeFromList();
-        cur.putBehind(node);
+        newNode.set.add(key);
+        map.put(key, newNode);
     }
     
     public void dec(String key) {
-        Node node = map.get(key);
-        if(node.cnt == 1){
-            node.removeFromList();
+        Node oldNode = map.get(key);
+        if(oldNode.freq == 1){
             map.remove(key);
-            return;
+        }else{
+            Node newNode = null;
+            if (oldNode.prev.freq == oldNode.freq - 1){
+                newNode = oldNode.prev;
+            }else{
+                newNode = new Node(oldNode.freq - 1);
+                newNode.putBetween(oldNode.prev, oldNode);
+            }
+            newNode.set.add(key);
+            map.put(key, newNode);
         }
-        Node cur = node;
-        while(cur != tail && cur.cnt >= node.cnt - 1){
-            cur = cur.prev;
+        oldNode.set.remove(key);
+        if(oldNode.set.isEmpty()){
+            oldNode.remove();
         }
-        node.cnt--;
-        node.removeFromList();
-        cur.putAhead(node);
     }
     
     public String getMaxKey() {
         if(head.prev == tail){
             return "";
         }else{
-            return head.prev.key;
+            return head.prev.set.iterator().next();
         }
     }
     
@@ -55,7 +69,7 @@ class AllOne {
         if(tail.next == head){
             return "";
         }else{
-            return tail.next.key;
+            return tail.next.set.iterator().next();
         }
     }
 
@@ -64,30 +78,23 @@ class AllOne {
 class Node{
     Node prev;
     Node next;
-    String key;
-    int cnt;
+    int freq;
+    Set<String> set;
 
     public Node(){}
-    public Node(int cnt, String key){
-        this.key = key;
-        this.cnt = cnt;
+    public Node(int freq){
+        this.freq = freq;
+        set = new HashSet<>();
     }
 
-    public void putBehind(Node behind){
-        this.prev.next = behind;
-        behind.prev = this.prev;
-        behind.next = this;
-        this.prev = behind;
+    public void putBetween(Node prev, Node next){
+        prev.next = this;
+        next.prev = this;
+        this.prev = prev;
+        this.next = next;
     }
 
-    public void putAhead(Node ahead){
-        this.next.prev = ahead;
-        ahead.next = this.next;
-        this.next = ahead;
-        ahead.prev = this;
-    }
-
-    public void removeFromList(){
+    public void remove(){
         this.next.prev = this.prev;
         this.prev.next = this.next;
         this.prev = null;
