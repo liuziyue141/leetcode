@@ -19,7 +19,7 @@ class AllOne {
         }
         Node node = map.get(key);
         Node cur = node;
-        while(cur != head && cur.cnt <= node.cnt + 1){
+        while(cur != head && cur.cnt < node.cnt + 1){
             cur = cur.next;
         }
         node.cnt++;
