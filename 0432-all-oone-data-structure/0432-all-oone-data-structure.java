@@ -35,7 +35,7 @@ class AllOne {
             return;
         }
         Node cur = node;
-        while(cur != tail && cur.cnt > node.cnt - 1){
+        while(cur != tail && cur.cnt >= node.cnt - 1){
             cur = cur.prev;
         }
         node.cnt--;
