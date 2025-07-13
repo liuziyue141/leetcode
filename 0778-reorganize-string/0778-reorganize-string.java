@@ -25,19 +25,15 @@ class Solution {
             idx += 2;
         }
         cnt[maxIdx] = 0;
-        int writeCnt = max;
-        int i = 0;
-        while(writeCnt < s.length()){
-            while(cnt[i] == 0){
-                i++;
+        for (int i = 0; i < 26; i++){
+            while(cnt[i] != 0){
+                if(idx >= array.length){
+                    idx = 1;
+                }
+                array[idx] = (char)(i+'a');
+                idx += 2;
+                cnt[i]--;
             }
-            if(idx >= s.length()){
-                idx = 1;
-            }
-            array[idx] = (char)(i + 'a');
-            idx += 2;
-            cnt[i]--;
-            writeCnt++;
         }
         return new String(array);
     }
