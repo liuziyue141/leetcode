@@ -6,30 +6,39 @@ class Solution {
         }
 
         int max = 0;
+        int maxIdx = 0;
         for(int i = 0; i < 26; i++){
-            max = Math.max(cnt[i], max);
+            if (max < cnt[i]){
+                max = cnt[i];
+                maxIdx = i;
+            }
         }
 
         if (max > (s.length() + 1)/2){
             return "";
         }
 
-        StringBuilder sb = new StringBuilder();
-        int last = -1; 
         int idx = 0;
-        for(int i = 0; i < s.length(); i++){
-            int maxCnt = 0;
-            for(int j = 0; j < 26; j++){
-                if(j != last && cnt[j] > maxCnt){
-                    maxCnt = Math.max(maxCnt, cnt[j]);
-                    idx = j;
-                }
-            }
-            cnt[idx]--;
-            last = idx;
-            sb.append((char) (idx+ 'a'));
+        char[] array = new char[s.length()];
+        for(int i = 0; i < cnt[maxIdx]; i++){
+            array[idx] = (char)(maxIdx + 'a');
+            idx += 2;
         }
-
-        return sb.toString();
+        cnt[maxIdx] = 0;
+        int writeCnt = max;
+        int i = 0;
+        while(writeCnt < s.length()){
+            while(cnt[i] == 0){
+                i++;
+            }
+            if(idx >= s.length()){
+                idx = 1;
+            }
+            array[idx] = (char)(i + 'a');
+            idx += 2;
+            cnt[i]--;
+            writeCnt++;
+        }
+        return new String(array);
     }
 }
