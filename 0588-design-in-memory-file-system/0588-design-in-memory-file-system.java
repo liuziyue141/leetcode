@@ -7,13 +7,11 @@ class FileSystem {
     public List<String> ls(String path) {
         File dir = searchFileCreateFileIfNotExisted(path, true);
         if(dir instanceof ContentFile){
-            String[] filenames = path.split("/");
             List<String> res = new ArrayList<>();
-            res.add(filenames[filenames.length - 1]);
+            res.add(dir.name);
             return res;
         }
         return dir.ls();
-        //return rootDir.ls();
     }
     
     public void mkdir(String path) {
@@ -28,18 +26,6 @@ class FileSystem {
     public String readContentFromFile(String filePath) {
         File f = searchFileCreateFileIfNotExisted(filePath, false);
         return f.readContentFromFile();
-    }
-
-    public File searchFile(String filePath){
-        String[] pathNames = filePath.split("//");
-        File curFile = rootDir;
-        for(String filename : pathNames){
-            curFile = curFile.findSubFile(filename);
-            if(curFile == null){
-                return null;
-            }
-        }
-        return curFile;
     }
 
     public File searchFileCreateFileIfNotExisted(String filePath, boolean isDir){
