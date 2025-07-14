@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/liuziyue141/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/liuziyue141/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0636-exclusive-time-of-functions](https://github.com/liuziyue141/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/liuziyue141/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/liuziyue141/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/liuziyue141/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0636-exclusive-time-of-functions](https://github.com/liuziyue141/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/liuziyue141/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
