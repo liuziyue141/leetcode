@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/liuziyue141/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 ## Binary Search
 |  |
 | ------- |
