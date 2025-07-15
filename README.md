@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/liuziyue141/leetcode/tree/master/0049-group-anagrams) |
 | [0068-text-justification](https://github.com/liuziyue141/leetcode/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/liuziyue141/leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/liuziyue141/leetcode/tree/master/0125-valid-palindrome) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/liuziyue141/leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/liuziyue141/leetcode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/liuziyue141/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/liuziyue141/leetcode/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/liuziyue141/leetcode/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/liuziyue141/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/liuziyue141/leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/liuziyue141/leetcode/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/liuziyue141/leetcode/tree/master/0068-text-justification) |
@@ -193,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/liuziyue141/leetcode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/liuziyue141/leetcode/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0148-sort-list) |
