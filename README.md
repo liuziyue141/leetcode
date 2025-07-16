@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0052-n-queens-ii](https://github.com/liuziyue141/leetcode/tree/master/0052-n-queens-ii) |
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0865-robot-room-cleaner](https://github.com/liuziyue141/leetcode/tree/master/0865-robot-room-cleaner) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -470,4 +471,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
+## Interactive
+|  |
+| ------- |
+| [0865-robot-room-cleaner](https://github.com/liuziyue141/leetcode/tree/master/0865-robot-room-cleaner) |
 <!---LeetCode Topics End-->
