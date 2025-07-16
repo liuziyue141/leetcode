@@ -19,12 +19,14 @@
 class Solution {
     Set<List<Integer>> visited; 
     int[][] direction = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+    Robot robot;
     public void cleanRoom(Robot robot) {
         visited = new HashSet<>();
-        explore(robot, 0, 0, 0);
+        this.robot = robot;
+        explore(0, 0, 0);
     }
 
-    public void explore(Robot robot, int row, int col, int dir){
+    public void explore(int row, int col, int dir){
         visited.add(Arrays.asList(row,col));
         robot.clean();
         for(int i = 0; i < 4; i++){
@@ -32,14 +34,14 @@ class Solution {
             int newRow = row + direction[newDir][0];
             int newCol = col + direction[newDir][1];
             if(!visited.contains(Arrays.asList(newRow, newCol))&& robot.move()){
-                explore(robot, newRow, newCol, newDir);
-                moveBack(robot);
+                explore(newRow, newCol, newDir);
+                moveBack();
             }
             robot.turnRight();
         }
     }
 
-    public void moveBack(Robot robot){
+    public void moveBack(){
         robot.turnRight();
         robot.turnRight();
         robot.move();
