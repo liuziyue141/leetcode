@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/liuziyue141/leetcode/tree/master/0339-nested-list-weight-sum) |
+| [0364-nested-list-weight-sum-ii](https://github.com/liuziyue141/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0543-diameter-of-binary-tree](https://github.com/liuziyue141/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -333,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/liuziyue141/leetcode/tree/master/0339-nested-list-weight-sum) |
+| [0364-nested-list-weight-sum-ii](https://github.com/liuziyue141/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
@@ -393,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/liuziyue141/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/liuziyue141/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/liuziyue141/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0364-nested-list-weight-sum-ii](https://github.com/liuziyue141/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0636-exclusive-time-of-functions](https://github.com/liuziyue141/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/liuziyue141/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
