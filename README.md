@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0865-robot-room-cleaner](https://github.com/liuziyue141/leetcode/tree/master/0865-robot-room-cleaner) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/liuziyue141/leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -358,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2383-add-two-integers](https://github.com/liuziyue141/leetcode/tree/master/2383-add-two-integers) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/liuziyue141/leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
 ## Greedy
 |  |
