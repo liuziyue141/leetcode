@@ -4,7 +4,7 @@ class Solution {
         // return 0;
         int sum = 0;
         for(int i = 0; i <= n; i++){
-            if(partition(String.valueOf(i*i), i)){
+            if(canPartition(i*i, i)){
                 sum += i * i;
             }
         }
@@ -12,30 +12,22 @@ class Solution {
     
     }
 
-    public boolean partition(String n, int target){
-        if(target < 0){
+    public boolean canPartition(int num, int target) {
+        // Invalid partition found
+        if (target < 0 || num < target) {
             return false;
         }
-        // strip zero
-        int idx = 0;
-        while(idx < n.length() && n.charAt(idx) == 0){
-            idx++;
+
+        // Valid partition found
+        if (num == target) {
+            return true;
         }
-        if(idx == n.length()){
-            return target == 0;
-        }else{
-            n = n.substring(idx);
-        }
-        // upperbound
-        for(int i = 0; i < Math.min(n.length(), 4); i++){
-            if(i == n.length() - 1){
-                return Integer.valueOf(n) == target;
-            }
-            int curVal = Integer.valueOf(n.substring(0, i+1));
-            if(partition(n.substring(i+1), target - curVal)){
-                return true;
-            }
-        }
-        return false;
+
+        // Recursively check all partitions for a valid partition
+        return (
+            canPartition(num / 10, target - (num % 10)) ||
+            canPartition(num / 100, target - (num % 100)) ||
+            canPartition(num / 1000, target - (num % 1000))
+        );
     }
 }
