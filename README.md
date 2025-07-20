@@ -365,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2383-add-two-integers](https://github.com/liuziyue141/leetcode/tree/master/2383-add-two-integers) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/liuziyue141/leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
+| [3201-distribute-candies-among-children-ii](https://github.com/liuziyue141/leetcode/tree/master/3201-distribute-candies-among-children-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -493,4 +494,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0865-robot-room-cleaner](https://github.com/liuziyue141/leetcode/tree/master/0865-robot-room-cleaner) |
+## Combinatorics
+|  |
+| ------- |
+| [3201-distribute-candies-among-children-ii](https://github.com/liuziyue141/leetcode/tree/master/3201-distribute-candies-among-children-ii) |
+## Enumeration
+|  |
+| ------- |
+| [3201-distribute-candies-among-children-ii](https://github.com/liuziyue141/leetcode/tree/master/3201-distribute-candies-among-children-ii) |
 <!---LeetCode Topics End-->
