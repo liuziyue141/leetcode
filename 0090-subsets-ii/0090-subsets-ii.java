@@ -1,36 +1,30 @@
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        HashMap<Integer, Integer> cur = new HashMap<>();
-        Set<HashMap<Integer, Integer>> set = new HashSet<>();
-        List<List<Integer>> list = new ArrayList<>();
+        Arrays.sort(nums);
+        List<List<Integer>> subsets = new ArrayList<>();
+        List<Integer> currentSubset = new ArrayList<>();
 
-        subsetsWithDup(nums, 0, cur, set, list);
-
-        return list;
+        subsetsWithDupHelper(subsets, currentSubset, nums, 0);
+        return subsets;
     }
 
-    public void subsetsWithDup(int[] nums, int idx, HashMap<Integer, Integer> cur, Set<HashMap<Integer, Integer>> set, List<List<Integer>> result){
-        if(!set.contains(cur)){
-            set.add(new HashMap<>(cur));
-            List<Integer> resElem = new ArrayList<>();
-            for(Integer key : cur.keySet()){
-                for(int i = 0; i < cur.get(key); i++){
-                    resElem.add(key);
-                }
-            }
-            result.add(resElem);
-        }
+    private void subsetsWithDupHelper(
+        List<List<Integer>> subsets,
+        List<Integer> currentSubset,
+        int[] nums,
+        int index
+    ) {
+        // Add the subset formed so far to the subsets list.
+        subsets.add(new ArrayList<>(currentSubset));
 
-        for(int i = idx; i < nums.length; i++){
-            cur.put(nums[i], cur.getOrDefault(nums[i], 0) + 1);
-            subsetsWithDup(nums, i + 1, cur, set, result);
-            int cnt = cur.get(nums[i]) - 1;
-            if(cnt == 0){
-                cur.remove(nums[i]);
-            }else{
-                cur.put(nums[i], cnt);
+        for (int i = index; i < nums.length; i++) {
+            // If the current element is a duplicate, ignore.
+            if (i != index && nums[i] == nums[i - 1]) {
+                continue;
             }
-            
+            currentSubset.add(nums[i]);
+            subsetsWithDupHelper(subsets, currentSubset, nums, i + 1);
+            currentSubset.remove(currentSubset.size() - 1);
         }
     }
 }
