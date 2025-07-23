@@ -24,7 +24,7 @@ class NumberContainers {
         if(set.isEmpty()){
             return -1;
         }
-        return set.getFirst();
+        return set.first();
     }
 }
 
