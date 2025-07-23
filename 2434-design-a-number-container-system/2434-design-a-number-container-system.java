@@ -1,5 +1,5 @@
 class NumberContainers {
-    HashMap<Integer, TreeSet<Integer>> valIdxMap;
+    HashMap<Integer, PriorityQueue<Integer>> valIdxMap;
     HashMap<Integer, Integer> idxValMap;
     public NumberContainers() {
         valIdxMap = new HashMap<>();
@@ -7,12 +7,8 @@ class NumberContainers {
     }
     
     public void change(int index, int number) {
-        if(idxValMap.containsKey(index)){
-            int oldVal = idxValMap.get(index);
-            valIdxMap.get(oldVal).remove(index);
-        }
         idxValMap.put(index, number);
-        valIdxMap.putIfAbsent(number, new TreeSet<>());
+        valIdxMap.putIfAbsent(number, new PriorityQueue<>());
         valIdxMap.get(number).add(index);
     }
     
@@ -20,11 +16,16 @@ class NumberContainers {
         if(!valIdxMap.containsKey(number)){
             return -1;
         }
-        TreeSet<Integer> set = valIdxMap.get(number);
-        if(set.isEmpty()){
-            return -1;
+        PriorityQueue<Integer> pq = valIdxMap.get(number);
+        while(!pq.isEmpty() && idxValMap.get(pq.peek()) != number){
+            pq.poll();
         }
-        return set.first();
+        if(pq.isEmpty()){
+            valIdxMap.remove(number);
+            return -1;
+        }else{
+            return pq.peek();
+        }
     }
 }
 
