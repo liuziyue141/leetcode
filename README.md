@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/liuziyue141/leetcode/tree/master/1364-tuple-with-same-product) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/liuziyue141/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2434-design-a-number-container-system](https://github.com/liuziyue141/leetcode/tree/master/2434-design-a-number-container-system) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/liuziyue141/leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Design
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [2434-design-a-number-container-system](https://github.com/liuziyue141/leetcode/tree/master/2434-design-a-number-container-system) |
 ## Trie
 |  |
 | ------- |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/liuziyue141/leetcode/tree/master/0502-ipo) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/liuziyue141/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0778-reorganize-string](https://github.com/liuziyue141/leetcode/tree/master/0778-reorganize-string) |
+| [2434-design-a-number-container-system](https://github.com/liuziyue141/leetcode/tree/master/2434-design-a-number-container-system) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
 ## Matrix
 |  |
@@ -486,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
+| [2434-design-a-number-container-system](https://github.com/liuziyue141/leetcode/tree/master/2434-design-a-number-container-system) |
 ## Monotonic Stack
 |  |
 | ------- |
