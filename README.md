@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0362-design-hit-counter](https://github.com/liuziyue141/leetcode/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/liuziyue141/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0432-all-oone-data-structure) |
 | [0588-design-in-memory-file-system](https://github.com/liuziyue141/leetcode/tree/master/0588-design-in-memory-file-system) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/liuziyue141/leetcode/tree/master/0289-game-of-life) |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0362-design-hit-counter](https://github.com/liuziyue141/leetcode/tree/master/0362-design-hit-counter) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/liuziyue141/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/liuziyue141/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/liuziyue141/leetcode/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/liuziyue141/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/liuziyue141/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0362-design-hit-counter](https://github.com/liuziyue141/leetcode/tree/master/0362-design-hit-counter) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/liuziyue141/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/liuziyue141/leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -498,10 +501,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0362-design-hit-counter](https://github.com/liuziyue141/leetcode/tree/master/0362-design-hit-counter) |
 ## Data Stream
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0362-design-hit-counter](https://github.com/liuziyue141/leetcode/tree/master/0362-design-hit-counter) |
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 ## Interactive
 |  |
