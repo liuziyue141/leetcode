@@ -4,11 +4,12 @@ class Solution {
         for(int i = 0; i < nums.length; i++){
             diff.put(i - nums[i], diff.getOrDefault(i-nums[i], 0) + 1);
         }
-        long res = 0;
+        long total = (long)nums.length * (nums.length - 1) / 2;
+        long good = 0;
         for(int val : diff.values()){
-            res += (nums.length - val)*(long)val;
+            good += (long)val * (val - 1)/2;
         }
-        return res/2;
+        return total - good;
     }
 
     // 3, 0, 1, 3
