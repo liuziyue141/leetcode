@@ -31,12 +31,12 @@ class Solution {
             if(nums[i] <= mid){
                 dpSteal[i + 1] = dpNotSteal[i] - 1;
             }else{
-                dpSteal[i + 1] = Math.min(dpNotSteal[i], dpSteal[i]);
+                dpSteal[i + 1] = dpSteal[i];
             }
 
-            dpNotSteal[i + 1] = Math.min(dpNotSteal[i], dpSteal[i]);
+            dpNotSteal[i + 1] = dpSteal[i];
 
-            if(dpSteal[i+1] == 0 || dpNotSteal[i+1] == 0){
+            if(dpSteal[i+1] == 0){
                 return true;
             }
         }
