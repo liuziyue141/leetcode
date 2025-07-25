@@ -19,23 +19,16 @@ class Solution {
         return min;
     }
 
-    public boolean check(int[] nums, int k, int mid){
-        int lastSteal = k, lastNoSteal = k, curSteal = k, curNoSteal = k;
-        
+    public boolean check(int[] nums, int k, int mid){        
         for(int i = 0; i < nums.length; i++){
             if(nums[i] <= mid){
-                curSteal = lastNoSteal - 1;
-            }else{
-                curSteal = lastSteal;
+                k--;
+                i++;
             }
 
-            curNoSteal = lastSteal;
-
-            if(curSteal == 0){
+            if(k == 0){
                 return true;
             }
-            lastSteal = curSteal;
-            lastNoSteal = curNoSteal;
         }
         return false;
     }
