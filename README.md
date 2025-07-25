@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2448-count-number-of-bad-pairs](https://github.com/liuziyue141/leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
+| [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [2717-collect-coins-in-a-tree](https://github.com/liuziyue141/leetcode/tree/master/2717-collect-coins-in-a-tree) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/liuziyue141/leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/liuziyue141/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/liuziyue141/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/liuziyue141/leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
 ## Depth-First Search
 |  |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/liuziyue141/leetcode/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [3949-minimum-number-of-primes-to-sum-to-target](https://github.com/liuziyue141/leetcode/tree/master/3949-minimum-number-of-primes-to-sum-to-target) |
 ## Backtracking
 |  |
@@ -409,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/liuziyue141/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/liuziyue141/leetcode/tree/master/0778-reorganize-string) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
+| [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
 ## Sliding Window
 |  |
