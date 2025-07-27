@@ -9,9 +9,9 @@ class Solution {
         }
 
         // Iterate through all distinct pairs of characters (a, b).
-        for (char a = '0'; a <= '9'; a++) {
+        for (char a = '0'; a <= '4'; a++) {
             if (!seen[a]) continue;
-            for (char b = '0'; b <= '9'; b++) {
+            for (char b = '0'; b <= '4'; b++) {
                 if (!seen[b] || a == b) continue;
                 
                 long currentMax = solveForPair(s, k, a, b);
