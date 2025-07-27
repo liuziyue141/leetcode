@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/liuziyue141/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/liuziyue141/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/liuziyue141/leetcode/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/liuziyue141/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/liuziyue141/leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/liuziyue141/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -503,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/liuziyue141/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/liuziyue141/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Quickselect
 |  |
 | ------- |
@@ -544,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3201-distribute-candies-among-children-ii](https://github.com/liuziyue141/leetcode/tree/master/3201-distribute-candies-among-children-ii) |
+| [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/liuziyue141/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Number Theory
 |  |
 | ------- |
