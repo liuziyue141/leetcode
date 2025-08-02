@@ -15,8 +15,8 @@ class Solution {
             for(int j = 0; j < grid[0].length; j++){
                 if(grid[i][j] == 1){
                     q.add(new int[]{i, j});
+                    bfs(q, cnt);
                     cnt++;
-                    bfs(q);
                 }
             }
         }
@@ -31,7 +31,7 @@ class Solution {
         return min==Integer.MAX_VALUE? -1:min;
     }
 
-    public void bfs(Queue<int[]>q){
+    public void bfs(Queue<int[]>q, int cnt){
         boolean[][] visited= new boolean[grid.length][grid[0].length];
         int step = 0;
         while(!q.isEmpty()){
@@ -46,7 +46,7 @@ class Solution {
                     int nY = y + dy[j];
                     if(nX >= 0 && nX < grid.length
                     && nY >= 0 && nY < grid[0].length && 
-                    grid[nX][nY] == 0 && !visited[nX][nY]){
+                    grid[nX][nY] == 0 && !visited[nX][nY] && reached[nX][nY] == cnt){
                         q.add(new int[]{nX, nY});
                         reached[nX][nY]++;
                         visited[nX][nY] = true;
