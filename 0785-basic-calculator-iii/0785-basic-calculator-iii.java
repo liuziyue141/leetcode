@@ -8,7 +8,7 @@ class Solution {
         Stack<Integer> numStack = new Stack<>();
         Stack<Character> optStack = new Stack<>();
         int cur = 0; 
-        for(int i = start; i < s.length(); i++){
+        for(int i = start; i < s.length(); ++i){
             if(s.charAt(i) == '+' || s.charAt(i) == '-' || 
             s.charAt(i) == '*' || s.charAt(i) == '/'){
                 numStack.push(cur);
