@@ -1,35 +1,44 @@
 class Solution {
-    public int minZeroArray(int[] nums, int[][] queries) {
 
-        int cnt = 0; 
-        for(int i = 0; i < nums.length; i++){
-            if(nums[i] == 0){
-                cnt++;
+    public int minZeroArray(int[] nums, int[][] queries) {
+        int n = nums.length, left = 0, right = queries.length;
+
+        // Zero array isn't formed after all queries are processed
+        if (!currentIndexZero(nums, queries, right)) return -1;
+
+        // Binary Search
+        while (left <= right) {
+            int middle = left + (right - left) / 2;
+            if (currentIndexZero(nums, queries, middle)) {
+                right = middle - 1;
+            } else {
+                left = middle + 1;
             }
         }
-        int step = 0;
-        for(int[] query : queries){
-            int l = query[0];
-            int r = query[1];
-            int v = query[2];
-            if(cnt == nums.length){
-                return step;
-            }
-            for(int i = l; i <= r; i++){
-                if(nums[i]==0){
-                    continue;
-                }
-                if(nums[i] <= v){
-                    cnt++;
-                }
-                nums[i] = Math.max(nums[i] - v, 0);
-            }
-            System.out.println(step);
-            step++;
+
+        // Return earliest query that zero array can be formed
+        return left;
+    }
+
+    private boolean currentIndexZero(int[] nums, int[][] queries, int k) {
+        int n = nums.length, sum = 0;
+        int[] differenceArray = new int[n + 1];
+
+        // Process query
+        for (int queryIndex = 0; queryIndex < k; queryIndex++) {
+            int left = queries[queryIndex][0], right =
+                queries[queryIndex][1], val = queries[queryIndex][2];
+
+            // Process start and end of range
+            differenceArray[left] += val;
+            differenceArray[right + 1] -= val;
         }
-        if(cnt == nums.length){
-            return step;
+
+        // Check if zero array can be formed
+        for (int numIndex = 0; numIndex < n; numIndex++) {
+            sum += differenceArray[numIndex];
+            if (sum < nums[numIndex]) return false;
         }
-        return -1;
+        return true;
     }
 }
