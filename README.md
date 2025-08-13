@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/liuziyue141/leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/liuziyue141/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/liuziyue141/leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3643-zero-array-transformation-ii](https://github.com/liuziyue141/leetcode/tree/master/3643-zero-array-transformation-ii) |
 | [3949-minimum-number-of-primes-to-sum-to-target](https://github.com/liuziyue141/leetcode/tree/master/3949-minimum-number-of-primes-to-sum-to-target) |
 ## Binary Search
 |  |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/liuziyue141/leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
+| [3643-zero-array-transformation-ii](https://github.com/liuziyue141/leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/liuziyue141/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
+| [3643-zero-array-transformation-ii](https://github.com/liuziyue141/leetcode/tree/master/3643-zero-array-transformation-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/liuziyue141/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Quickselect
 |  |
