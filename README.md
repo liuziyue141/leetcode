@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/liuziyue141/leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
+| [2075-brightest-position-on-street](https://github.com/liuziyue141/leetcode/tree/master/2075-brightest-position-on-street) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/liuziyue141/leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/liuziyue141/leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0927-sum-of-subsequence-widths](https://github.com/liuziyue141/leetcode/tree/master/0927-sum-of-subsequence-widths) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/liuziyue141/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/liuziyue141/leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [2075-brightest-position-on-street](https://github.com/liuziyue141/leetcode/tree/master/2075-brightest-position-on-street) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/liuziyue141/leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Divide and Conquer
@@ -535,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-random-pick-with-weight](https://github.com/liuziyue141/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/liuziyue141/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
+| [2075-brightest-position-on-street](https://github.com/liuziyue141/leetcode/tree/master/2075-brightest-position-on-street) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
 | [3643-zero-array-transformation-ii](https://github.com/liuziyue141/leetcode/tree/master/3643-zero-array-transformation-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/liuziyue141/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -551,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
+| [2075-brightest-position-on-street](https://github.com/liuziyue141/leetcode/tree/master/2075-brightest-position-on-street) |
 | [2434-design-a-number-container-system](https://github.com/liuziyue141/leetcode/tree/master/2434-design-a-number-container-system) |
 ## Monotonic Stack
 |  |
