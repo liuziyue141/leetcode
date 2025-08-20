@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1108-analyze-user-website-visit-pattern](https://github.com/liuziyue141/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/liuziyue141/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1364-tuple-with-same-product](https://github.com/liuziyue141/leetcode/tree/master/1364-tuple-with-same-product) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/liuziyue141/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/liuziyue141/leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/liuziyue141/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/liuziyue141/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [3949-minimum-number-of-primes-to-sum-to-target](https://github.com/liuziyue141/leetcode/tree/master/3949-minimum-number-of-primes-to-sum-to-target) |
 ## Backtracking
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/liuziyue141/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/liuziyue141/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Tree
 |  |
 | ------- |
