@@ -4,8 +4,6 @@ class Solution {
         while(factor <= n){
             factor *= 3;
         }
-        factor /= 3;
-
         while(factor >= 1){
             if(n >= factor){
                 n = n - factor;
