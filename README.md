@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1909-buildings-with-an-ocean-view](https://github.com/liuziyue141/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 | [2075-brightest-position-on-street](https://github.com/liuziyue141/leetcode/tree/master/2075-brightest-position-on-street) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/liuziyue141/leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
+| [2354-minimum-health-to-beat-game](https://github.com/liuziyue141/leetcode/tree/master/2354-minimum-health-to-beat-game) |
 | [2448-count-number-of-bad-pairs](https://github.com/liuziyue141/leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
@@ -442,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/liuziyue141/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/liuziyue141/leetcode/tree/master/0778-reorganize-string) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/liuziyue141/leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [2354-minimum-health-to-beat-game](https://github.com/liuziyue141/leetcode/tree/master/2354-minimum-health-to-beat-game) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
