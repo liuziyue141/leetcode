@@ -1,28 +1,24 @@
 class Solution {
     public List<String> restoreIpAddresses(String s) {
         List<String> res = new ArrayList<>();
-        backtrack(res, new StringBuilder(), s, 0, 0);
+        backtrack(res, new ArrayList<>(), s, 0, 0);
         return res;
     }
 
-    public void backtrack(List<String> res, StringBuilder sb, String s, int idx, int cnt){
+    public void backtrack(List<String> res, List<String> cur, String s, int idx, int cnt){
         
         if(cnt == 4){
             if(idx == s.length()){
-                sb.deleteCharAt(sb.length()-1);
-                res.add(sb.toString());
-                sb.append('.');
+                res.add(String.join(".", cur));
             }
             return;
         }
         for(int i = idx + 1; i <= s.length() && i <= idx + 3; i++){
             String sub = s.substring(idx, i);
             if( validSubString(sub)){
-                int val = Integer.valueOf(sub);
-                sb.append(val);
-                sb.append('.');
-                backtrack(res, sb, s, i, cnt+1);
-                sb.delete(sb.length() - i + idx - 1, sb.length());
+                cur.add(sub);
+                backtrack(res, cur, s, i, cnt+1);
+                cur.remove(cur.size()-1);
             }
         }
     }
