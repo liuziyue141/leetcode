@@ -3,44 +3,32 @@
 
 public class Solution extends Relation {
     public int findCelebrity(int n) {
-        int celebrity = findPotentialCelebrity(0, new HashSet<>(), n);
-        if(celebrity == -1){
-            return -1;
-        }
-        for(int i = 0; i < n; i++){
-            if(i==celebrity){
-                continue;
-            }
-            if(!knows(i, celebrity)){
-                return -1;
-            }
-        }
-        return celebrity;
+        int potentialCandidate = findPotentialCelebrity(n);
+        return confirmCelebrity(potentialCandidate, n)? potentialCandidate: -1;
     }
 
-    public int findPotentialCelebrity(int cur, HashSet<Integer> seen, int n){
-        boolean isCelebrity = true;
-        seen.add(cur);
+    public int findPotentialCelebrity(int n){
+        int cur = 0;
         for(int i = 0; i < n; i++){
             if(i == cur){
                 continue;
             }
             if(knows(cur, i)){
-                isCelebrity = false;
-                if(seen.contains(i)){
-                    continue;
-                }
-                int celebrity = findPotentialCelebrity(i, seen, n);
-                if(celebrity != -1){
-                    return celebrity;
-                }
+                cur = i;
             }
         }
+        return cur;
+    }
 
-        if(isCelebrity){
-            return cur;
-        }else{
-            return -1;
+    public boolean confirmCelebrity(int cur, int n){
+        for(int i = 0; i < n; i++){
+            if(i == cur){
+                continue;
+            }
+            if(knows(cur, i) || !knows(i, cur)){
+                return false;
+            }
         }
+        return true;
     }
 }
