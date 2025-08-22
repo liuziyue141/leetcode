@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/liuziyue141/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/liuziyue141/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0249-group-shifted-strings](https://github.com/liuziyue141/leetcode/tree/master/0249-group-shifted-strings) |
 | [0269-alien-dictionary](https://github.com/liuziyue141/leetcode/tree/master/0269-alien-dictionary) |
 | [0273-integer-to-english-words](https://github.com/liuziyue141/leetcode/tree/master/0273-integer-to-english-words) |
 | [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/liuziyue141/leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/liuziyue141/leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/liuziyue141/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0249-group-shifted-strings](https://github.com/liuziyue141/leetcode/tree/master/0249-group-shifted-strings) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0380-insert-delete-getrandom-o1](https://github.com/liuziyue141/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/liuziyue141/leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/liuziyue141/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/liuziyue141/leetcode/tree/master/0221-maximal-square) |
+| [0249-group-shifted-strings](https://github.com/liuziyue141/leetcode/tree/master/0249-group-shifted-strings) |
 | [0253-meeting-rooms-ii](https://github.com/liuziyue141/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0269-alien-dictionary](https://github.com/liuziyue141/leetcode/tree/master/0269-alien-dictionary) |
 | [0274-h-index](https://github.com/liuziyue141/leetcode/tree/master/0274-h-index) |
