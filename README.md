@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/liuziyue141/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0061-rotate-list](https://github.com/liuziyue141/leetcode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/liuziyue141/leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/liuziyue141/leetcode/tree/master/0086-partition-list) |
@@ -514,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/liuziyue141/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0224-basic-calculator](https://github.com/liuziyue141/leetcode/tree/master/0224-basic-calculator) |
 | [0273-integer-to-english-words](https://github.com/liuziyue141/leetcode/tree/master/0273-integer-to-english-words) |
 | [0785-basic-calculator-iii](https://github.com/liuziyue141/leetcode/tree/master/0785-basic-calculator-iii) |
