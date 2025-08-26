@@ -14,9 +14,6 @@ class Solution {
 
         int[] res = new int[digits.length + 1];
         res[0] = 1;
-        for(int i = 0; i < digits.length; i++){
-            res[i+1] = digits[i];
-        }
         return res;
     }
 }
