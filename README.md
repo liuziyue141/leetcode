@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/liuziyue141/leetcode/tree/master/0029-divide-two-integers) |
 | [0090-subsets-ii](https://github.com/liuziyue141/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/liuziyue141/leetcode/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/liuziyue141/leetcode/tree/master/0222-count-complete-tree-nodes) |
@@ -424,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/liuziyue141/leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/liuziyue141/leetcode/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/liuziyue141/leetcode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/liuziyue141/leetcode/tree/master/0189-rotate-array) |
