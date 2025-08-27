@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/liuziyue141/leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0049-group-anagrams](https://github.com/liuziyue141/leetcode/tree/master/0049-group-anagrams) |
+| [0065-valid-number](https://github.com/liuziyue141/leetcode/tree/master/0065-valid-number) |
 | [0068-text-justification](https://github.com/liuziyue141/leetcode/tree/master/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/liuziyue141/leetcode/tree/master/0076-minimum-window-substring) |
 | [0093-restore-ip-addresses](https://github.com/liuziyue141/leetcode/tree/master/0093-restore-ip-addresses) |
