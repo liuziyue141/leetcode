@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0269-alien-dictionary](https://github.com/liuziyue141/leetcode/tree/master/0269-alien-dictionary) |
 | [0273-integer-to-english-words](https://github.com/liuziyue141/leetcode/tree/master/0273-integer-to-english-words) |
 | [0383-ransom-note](https://github.com/liuziyue141/leetcode/tree/master/0383-ransom-note) |
+| [0394-decode-string](https://github.com/liuziyue141/leetcode/tree/master/0394-decode-string) |
 | [0408-valid-word-abbreviation](https://github.com/liuziyue141/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0588-design-in-memory-file-system](https://github.com/liuziyue141/leetcode/tree/master/0588-design-in-memory-file-system) |
@@ -509,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/liuziyue141/leetcode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/liuziyue141/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0364-nested-list-weight-sum-ii](https://github.com/liuziyue141/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
+| [0394-decode-string](https://github.com/liuziyue141/leetcode/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/liuziyue141/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0678-valid-parenthesis-string](https://github.com/liuziyue141/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0716-max-stack](https://github.com/liuziyue141/leetcode/tree/master/0716-max-stack) |
@@ -530,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/liuziyue141/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0224-basic-calculator](https://github.com/liuziyue141/leetcode/tree/master/0224-basic-calculator) |
 | [0273-integer-to-english-words](https://github.com/liuziyue141/leetcode/tree/master/0273-integer-to-english-words) |
+| [0394-decode-string](https://github.com/liuziyue141/leetcode/tree/master/0394-decode-string) |
 | [0785-basic-calculator-iii](https://github.com/liuziyue141/leetcode/tree/master/0785-basic-calculator-iii) |
 ## Concurrency
 |  |
