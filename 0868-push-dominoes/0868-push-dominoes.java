@@ -1,40 +1,38 @@
 class Solution {
     public String pushDominoes(String dominoes) {
         char[] sequence = dominoes.toCharArray();
-        int start = 0;
+        int lastRight = -1;
+        int lastLeft = 0;
         for(int i = 0; i < sequence.length; i++){
-            if(sequence[i] == 'L'){
-                for(int j = start; j < i; j++){
-                    sequence[j] = 'L';
-                }
-                start = i + 1;
-            }
             if(sequence[i] == 'R'){
-                int idxR = i;
-                while(i < sequence.length && sequence[i] != 'L'){
-                    if(sequence[i] == 'R'){
-                        while(idxR < i){
-                            sequence[idxR] = 'R';
-                            idxR++;
-                        }
+                if(lastRight >= lastLeft){
+                    for(int j = lastRight + 1; j < i; j++){
+                        sequence[j] = 'R';
                     }
-                    i++;
                 }
-                if(i == sequence.length){
-                    while(idxR < i){
-                        sequence[idxR] = 'R';
-                        idxR++;
+                lastRight = i;
+            }
+            if(sequence[i] == 'L'){
+                if(lastLeft > lastRight){
+                    for(int j = lastLeft; j < i; j++){
+                        sequence[j] = 'L';
                     }
                 }else{
-                    int idxL = i;
-                    start = i + 1;
-                    while(idxL > idxR){
-                        sequence[idxL] = 'L';
-                        sequence[idxR] = 'R';
-                        idxL--;
-                        idxR++;
+                    lastLeft = i;
+                    int l = lastRight + 1;
+                    int r = i - 1;
+                    while(l < r){
+                        sequence[l++] = 'R';
+                        sequence[r--] = 'L';
                     }
+                    lastLeft = i;
                 }
+            }
+        }
+
+        if(lastRight >= lastLeft){
+            for(int i = lastRight + 1; i < sequence.length; i++){
+                sequence[i] = 'R';
             }
         }
         return new String(sequence);
