@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/liuziyue141/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
+| [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/liuziyue141/leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [3949-minimum-number-of-primes-to-sum-to-target](https://github.com/liuziyue141/leetcode/tree/master/3949-minimum-number-of-primes-to-sum-to-target) |
 ## Backtracking
 |  |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/liuziyue141/leetcode/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/liuziyue141/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/liuziyue141/leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 ## Memoization
 |  |
 | ------- |
@@ -470,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2354-minimum-health-to-beat-game](https://github.com/liuziyue141/leetcode/tree/master/2354-minimum-health-to-beat-game) |
 | [2681-put-marbles-in-bags](https://github.com/liuziyue141/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
+| [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/liuziyue141/leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [2811-determine-the-minimum-sum-of-a-k-avoiding-array](https://github.com/liuziyue141/leetcode/tree/master/2811-determine-the-minimum-sum-of-a-k-avoiding-array) |
 ## Sliding Window
 |  |
