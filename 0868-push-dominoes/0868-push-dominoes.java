@@ -2,10 +2,10 @@ class Solution {
     public String pushDominoes(String dominoes) {
         char[] sequence = dominoes.toCharArray();
         int lastRight = -1;
-        int lastLeft = 0;
+        int lastLeft = -1;
         for(int i = 0; i < sequence.length; i++){
             if(sequence[i] == 'R'){
-                if(lastRight >= lastLeft){
+                if(lastRight > lastLeft){
                     for(int j = lastRight + 1; j < i; j++){
                         sequence[j] = 'R';
                     }
@@ -13,24 +13,23 @@ class Solution {
                 lastRight = i;
             }
             if(sequence[i] == 'L'){
-                if(lastLeft > lastRight){
-                    for(int j = lastLeft; j < i; j++){
+                if(lastLeft >= lastRight){
+                    for(int j = lastLeft + 1; j < i; j++){
                         sequence[j] = 'L';
                     }
                 }else{
-                    lastLeft = i;
                     int l = lastRight + 1;
                     int r = i - 1;
                     while(l < r){
                         sequence[l++] = 'R';
                         sequence[r--] = 'L';
                     }
-                    lastLeft = i;
                 }
+                lastLeft = i;
             }
         }
 
-        if(lastRight >= lastLeft){
+        if(lastRight > lastLeft){
             for(int i = lastRight + 1; i < sequence.length; i++){
                 sequence[i] = 'R';
             }
