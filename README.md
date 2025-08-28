@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0277-find-the-celebrity](https://github.com/liuziyue141/leetcode/tree/master/0277-find-the-celebrity) |
 | [0408-valid-word-abbreviation](https://github.com/liuziyue141/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/liuziyue141/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0868-push-dominoes](https://github.com/liuziyue141/leetcode/tree/master/0868-push-dominoes) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/liuziyue141/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1894-merge-strings-alternately](https://github.com/liuziyue141/leetcode/tree/master/1894-merge-strings-alternately) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/liuziyue141/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/liuziyue141/leetcode/tree/master/0778-reorganize-string) |
 | [0785-basic-calculator-iii](https://github.com/liuziyue141/leetcode/tree/master/0785-basic-calculator-iii) |
+| [0868-push-dominoes](https://github.com/liuziyue141/leetcode/tree/master/0868-push-dominoes) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/liuziyue141/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/liuziyue141/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/liuziyue141/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/liuziyue141/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0868-push-dominoes](https://github.com/liuziyue141/leetcode/tree/master/0868-push-dominoes) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/liuziyue141/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2690-house-robber-iv](https://github.com/liuziyue141/leetcode/tree/master/2690-house-robber-iv) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/liuziyue141/leetcode/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
