@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/liuziyue141/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/liuziyue141/leetcode/tree/master/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/liuziyue141/leetcode/tree/master/0042-trapping-rain-water) |
+| [0047-permutations-ii](https://github.com/liuziyue141/leetcode/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/liuziyue141/leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/liuziyue141/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/liuziyue141/leetcode/tree/master/0053-maximum-subarray) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/liuziyue141/leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/liuziyue141/leetcode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/liuziyue141/leetcode/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/liuziyue141/leetcode/tree/master/0147-insertion-sort-list) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/liuziyue141/leetcode/tree/master/0047-permutations-ii) |
 | [0052-n-queens-ii](https://github.com/liuziyue141/leetcode/tree/master/0052-n-queens-ii) |
 | [0090-subsets-ii](https://github.com/liuziyue141/leetcode/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/liuziyue141/leetcode/tree/master/0093-restore-ip-addresses) |
