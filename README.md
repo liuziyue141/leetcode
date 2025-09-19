@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/liuziyue141/leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/liuziyue141/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3797-design-spreadsheet](https://github.com/liuziyue141/leetcode/tree/master/3797-design-spreadsheet) |
 ## Hash Table
 |  |
 | ------- |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/liuziyue141/leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [3410-find-longest-self-contained-substring](https://github.com/liuziyue141/leetcode/tree/master/3410-find-longest-self-contained-substring) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/liuziyue141/leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3797-design-spreadsheet](https://github.com/liuziyue141/leetcode/tree/master/3797-design-spreadsheet) |
 ## Design
 |  |
 | ------- |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/liuziyue141/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/liuziyue141/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2434-design-a-number-container-system](https://github.com/liuziyue141/leetcode/tree/master/2434-design-a-number-container-system) |
+| [3797-design-spreadsheet](https://github.com/liuziyue141/leetcode/tree/master/3797-design-spreadsheet) |
 ## Trie
 |  |
 | ------- |
@@ -213,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/liuziyue141/leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3639-zero-array-transformation-i](https://github.com/liuziyue141/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/liuziyue141/leetcode/tree/master/3643-zero-array-transformation-ii) |
+| [3797-design-spreadsheet](https://github.com/liuziyue141/leetcode/tree/master/3797-design-spreadsheet) |
 | [3949-minimum-number-of-primes-to-sum-to-target](https://github.com/liuziyue141/leetcode/tree/master/3949-minimum-number-of-primes-to-sum-to-target) |
 ## Binary Search
 |  |
@@ -394,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/liuziyue141/leetcode/tree/master/0854-making-a-large-island) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/liuziyue141/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/liuziyue141/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [3797-design-spreadsheet](https://github.com/liuziyue141/leetcode/tree/master/3797-design-spreadsheet) |
 ## Tree
 |  |
 | ------- |
