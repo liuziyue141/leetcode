@@ -248,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/liuziyue141/leetcode/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/liuziyue141/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/liuziyue141/leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/liuziyue141/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/liuziyue141/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0269-alien-dictionary](https://github.com/liuziyue141/leetcode/tree/master/0269-alien-dictionary) |
@@ -449,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/liuziyue141/leetcode/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/liuziyue141/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/liuziyue141/leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/liuziyue141/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/liuziyue141/leetcode/tree/master/0269-alien-dictionary) |
 | [0286-walls-and-gates](https://github.com/liuziyue141/leetcode/tree/master/0286-walls-and-gates) |
@@ -575,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/liuziyue141/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/liuziyue141/leetcode/tree/master/0269-alien-dictionary) |
 | [0277-find-the-celebrity](https://github.com/liuziyue141/leetcode/tree/master/0277-find-the-celebrity) |
@@ -582,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/liuziyue141/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/liuziyue141/leetcode/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/liuziyue141/leetcode/tree/master/0269-alien-dictionary) |
 | [2717-collect-coins-in-a-tree](https://github.com/liuziyue141/leetcode/tree/master/2717-collect-coins-in-a-tree) |
