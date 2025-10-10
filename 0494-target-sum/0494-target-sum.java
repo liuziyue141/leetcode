@@ -1,18 +1,27 @@
 class Solution {
-    int res = 0;
+    Map<Integer, Map<Integer, Integer>>memo;
     public int findTargetSumWays(int[] nums, int target) {
-        backtrack(nums, target, 0);
+        memo = new HashMap<>();
+        int res = backtrack(nums, target, 0);
         return res;
     }
 
-    public void backtrack(int[] nums, int target, int idx){
-        if(idx == nums.length){
-            if(target == 0) {res++;}
-            return;
+    public int backtrack(int[] nums, int target, int idx){
+        if(idx == nums.length && target == 0){
+            return 1;
         }
-
-        backtrack(nums, target - nums[idx], idx+1);
-        backtrack(nums, target + nums[idx], idx+1);
-
+        if(idx == nums.length){
+            return 0;
+        }
+        if(memo.containsKey(target)){
+            if(memo.get(target).containsKey(idx)){
+                return memo.get(target).get(idx);
+            }
+        }
+        int cnt = backtrack(nums, target - nums[idx], idx+1);
+        cnt += backtrack(nums, target + nums[idx], idx+1);
+        memo.putIfAbsent(target, new HashMap<>());
+        memo.get(target).put(idx, cnt);
+        return cnt;
     }
 }
