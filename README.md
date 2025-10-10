@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0286-walls-and-gates](https://github.com/liuziyue141/leetcode/tree/master/0286-walls-and-gates) |
 | [0289-game-of-life](https://github.com/liuziyue141/leetcode/tree/master/0289-game-of-life) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/liuziyue141/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0322-coin-change](https://github.com/liuziyue141/leetcode/tree/master/0322-coin-change) |
 | [0346-moving-average-from-data-stream](https://github.com/liuziyue141/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/liuziyue141/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0362-design-hit-counter](https://github.com/liuziyue141/leetcode/tree/master/0362-design-hit-counter) |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/liuziyue141/leetcode/tree/master/0174-dungeon-game) |
 | [0198-house-robber](https://github.com/liuziyue141/leetcode/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/liuziyue141/leetcode/tree/master/0221-maximal-square) |
+| [0322-coin-change](https://github.com/liuziyue141/leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/liuziyue141/leetcode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/liuziyue141/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/liuziyue141/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/liuziyue141/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/liuziyue141/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/liuziyue141/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
+| [0322-coin-change](https://github.com/liuziyue141/leetcode/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/liuziyue141/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0364-nested-list-weight-sum-ii](https://github.com/liuziyue141/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/liuziyue141/leetcode/tree/master/0433-minimum-genetic-mutation) |
