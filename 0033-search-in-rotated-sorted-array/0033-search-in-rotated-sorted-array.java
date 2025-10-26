@@ -13,7 +13,6 @@ class Solution {
         }
 
         int k = l;
-        System.out.println(k);
 
 
         l = 0;
@@ -22,7 +21,6 @@ class Solution {
         while(l <= r){
             int mid = l + (r - l)/2;
             int midVal = nums[(mid + k)%nums.length];
-            System.out.println(mid + " " + midVal);
             if(midVal == target){
                 return (mid + k)%nums.length;
             }else if(midVal < target){
