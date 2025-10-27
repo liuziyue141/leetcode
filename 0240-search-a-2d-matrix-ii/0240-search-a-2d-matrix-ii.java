@@ -21,7 +21,6 @@ class Solution {
                 }
 
             }
-            System.out.println(res);
             if(res == -1){
                 return false;
             }
